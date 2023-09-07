@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Computer Vision | Houssem Ben Braiek</title>
+    <link>https://hoss-bb.github.io/category/computer-vision/</link>
+      <atom:link href="https://hoss-bb.github.io/category/computer-vision/index.xml" rel="self" type="application/rss+xml" />
+    <description>Computer Vision</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 05 Oct 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://hoss-bb.github.io/media/icon_hu46dff4dbf79dc03e46b38f18d11d3be0_4210_512x512_fill_lanczos_center_3.png</url>
+      <title>Computer Vision</title>
+      <link>https://hoss-bb.github.io/category/computer-vision/</link>
+    </image>
+    
+    <item>
+      <title>From VGGNet to EfficientNet: Key Milestones in the Evolution of CNN Design</title>
+      <link></link>
+      <pubDate>Wed, 05 Oct 2022 00:00:00 +0000</pubDate>
+      <guid></guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

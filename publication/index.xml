@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications | Houssem Ben Braiek</title>
+    <link>https://hoss-bb.github.io/publication/</link>
+      <atom:link href="https://hoss-bb.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
+    <description>Publications</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 01 Sep 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://hoss-bb.github.io/media/icon_hu46dff4dbf79dc03e46b38f18d11d3be0_4210_512x512_fill_lanczos_center_3.png</url>
+      <title>Publications</title>
+      <link>https://hoss-bb.github.io/publication/</link>
+    </image>
+    
+    <item>
+      <title>SmOOD: Smoothness-based Out-of-Distribution Detection Approach for Surrogate Neural Networks in Aircraft Design</title>
+      <link>https://hoss-bb.github.io/publication/smood/</link>
+      <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>https://hoss-bb.github.io/publication/smood/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Physics-Guided Adversarial Machine Learning for Aircraft Systems Simulation</title>
+      <link>https://hoss-bb.github.io/publication/physical/</link>
+      <pubDate>Mon, 01 Aug 2022 00:00:00 +0000</pubDate>
+      <guid>https://hoss-bb.github.io/publication/physical/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DiverGet: A Search-Based Software Testing Approach for Deep Neural Network Quantization Assessment</title>
+      <link>https://hoss-bb.github.io/publication/diverget/</link>
+      <pubDate>Thu, 28 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>https://hoss-bb.github.io/publication/diverget/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Testing Feedforward Neural Networks Training Programs</title>
+      <link>https://hoss-bb.github.io/publication/deepchecker/</link>
+      <pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://hoss-bb.github.io/publication/deepchecker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Faults in Deep Reinforcement Learning Programs: a Taxonomy and a Detection Approach</title>
+      <link>https://hoss-bb.github.io/publication/ase2021/</link>
+      <pubDate>Tue, 28 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://hoss-bb.github.io/publication/ase2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Automatic Fault Detection for Deep Learning Programs Using Graph Transformations</title>
+      <link>https://hoss-bb.github.io/publication/neuralint/</link>
+      <pubDate>Tue, 28 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>https://hoss-bb.github.io/publication/neuralint/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Models of Computational Profiles to Study the Likelihood of DNN Metamorphic Test Cases</title>
+      <link>https://hoss-bb.github.io/publication/imlse2020/</link>
+      <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://hoss-bb.github.io/publication/imlse2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Scent of Deep Learning Code: An Empirical Study</title>
+      <link>https://hoss-bb.github.io/publication/msr2020/</link>
+      <pubDate>Sun, 28 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>https://hoss-bb.github.io/publication/msr2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On Testing Machine Learning Programs</title>
+      <link>https://hoss-bb.github.io/publication/review/</link>
+      <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>https://hoss-bb.github.io/publication/review/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DeepEvolution: A Search-Based Testing Approach for Deep Neural Networks</title>
+      <link>https://hoss-bb.github.io/publication/deepevolution/</link>
+      <pubDate>Sun, 01 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>https://hoss-bb.github.io/publication/deepevolution/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TFCheck : A TensorFlow Library for Detecting Training Issues in Neural Network Programs</title>
+      <link>https://hoss-bb.github.io/publication/tfcheck/</link>
+      <pubDate>Mon, 22 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>https://hoss-bb.github.io/publication/tfcheck/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Open-Closed Principle of Modern Machine Learning Frameworks&#39;</title>
+      <link>https://hoss-bb.github.io/publication/msr2018/</link>
+      <pubDate>Sun, 27 May 2018 00:00:00 +0000</pubDate>
+      <guid>https://hoss-bb.github.io/publication/msr2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Improved Algorithm for Hyperspectral Image Classification</title>
+      <link>https://hoss-bb.github.io/publication/jei2018/</link>
+      <pubDate>Sun, 28 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://hoss-bb.github.io/publication/jei2018/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

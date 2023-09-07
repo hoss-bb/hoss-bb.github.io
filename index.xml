@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Houssem Ben Braiek</title>
+    <link>https://hoss-bb.github.io/</link>
+      <atom:link href="https://hoss-bb.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <description>Houssem Ben Braiek</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 05 Oct 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://hoss-bb.github.io/media/icon_hu46dff4dbf79dc03e46b38f18d11d3be0_4210_512x512_fill_lanczos_center_3.png</url>
+      <title>Houssem Ben Braiek</title>
+      <link>https://hoss-bb.github.io/</link>
+    </image>
+    
+    <item>
+      <title>From VGGNet to EfficientNet: Key Milestones in the Evolution of CNN Design</title>
+      <link></link>
+      <pubDate>Wed, 05 Oct 2022 00:00:00 +0000</pubDate>
+      <guid></guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SmOOD: Smoothness-based Out-of-Distribution Detection Approach for Surrogate Neural Networks in Aircraft Design</title>
+      <link>https://hoss-bb.github.io/publication/smood/</link>
+      <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>https://hoss-bb.github.io/publication/smood/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Physics-Guided Adversarial Machine Learning for Aircraft Systems Simulation</title>
+      <link>https://hoss-bb.github.io/publication/physical/</link>
+      <pubDate>Mon, 01 Aug 2022 00:00:00 +0000</pubDate>
+      <guid>https://hoss-bb.github.io/publication/physical/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DiverGet: A Search-Based Software Testing Approach for Deep Neural Network Quantization Assessment</title>
+      <link>https://hoss-bb.github.io/publication/diverget/</link>
+      <pubDate>Thu, 28 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>https://hoss-bb.github.io/publication/diverget/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Hand‑on Guide on Testing Deep Neural Networks</title>
+      <link>https://hoss-bb.github.io/talk/a-handon-guide-on-testing-deep-neural-networks/</link>
+      <pubDate>Wed, 18 May 2022 14:30:00 +0000</pubDate>
+      <guid>https://hoss-bb.github.io/talk/a-handon-guide-on-testing-deep-neural-networks/</guid>
+      <description>&lt;p&gt;Data-driven AI (e.g., deep learning) has become a driving force and has been applied in many applications across diverse domains. The human-competitive performance makes them stand as core components in complicated software systems for tasks, e.g., computer vision (CV) and natural language processing (NLP). Corresponding to the increasing popularity of deploying more powerful and complicated DL models, there is also a pressing need to ensure the quality and reliability of these AI systems. However, the data-driven paradigm and black-box nature make such AI software fundamentally different from classical software. To this end, new software quality assurance techniques for AI-driven systems are thus challenging and needed. In this tutorial, we introduce the recent progress in AI Quality Assurance, especially for testing techniques for DNNs and provide hands-on experience. We will first give the details and discuss the difference between testing for traditional software and AI software. Then, we will provide hands-on tutorials on testing techniques for feed-forward neural networks (FNNs) with a CV use case and recurrent neural networks (RNNs) with an NLP use case. Finally, we will discuss with the audience the success and failures in achieving the full potential of testing AI software as well as possible improvements and research directions.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Domain-Aware Deep Learning Testing for Aircraft System Models</title>
+      <link>https://hoss-bb.github.io/talk/domain-aware-deep-learning-testing-for-aircraft-system-models/</link>
+      <pubDate>Wed, 18 May 2022 14:30:00 +0000</pubDate>
+      <guid>https://hoss-bb.github.io/talk/domain-aware-deep-learning-testing-for-aircraft-system-models/</guid>
+      <description>&lt;p&gt;With deep learning (DL) modeling, aircraft performance system simulators can be derived statistically without the extensive system knowledge required by physics-based modeling. Yet, DL&amp;rsquo;s rapid and economical simulations face serious trustworthiness challenges. Due to the high cost of aircraft flight tests, it is difficult to preserve held-out test datasets that cover the full range of the flight envelope for estimating the prediction errors of the learned DL model. Considering this risk of test data underrepresentation, even low-error models encounter credibility concerns when simulating and analyzing system behavior under all foreseeable operating conditions. Therefore, domain-aware DL testing methods become crucial to validate the properties and requirements for a DL-based system model beyond conventional performance testing. Crafting such testing methods needs an understanding of the simulated system design and a creative approach to incorporate the domain expertise without compromising the data-driven nature of DL and its acquired advantages.&lt;/p&gt;
+&lt;p&gt;Therefore, we present our physics-guided adversarial testing method that leverages foreknown physics-grounded sensitivity rules associated with the system and metaheuristic search algorithms in order to expose regions of input space where the DL model violates the system properties distilled from the physics domain knowledge. We also demonstrate how the revealed adversarial inputs can be relevant for model regularization to penalize these physics inconsistencies and to improve the model reliability. Furthermore, the verification of DL model sensitivity at different data points against physics-grounded rules pose scalability challenges when it comes to sequential models that predict dynamical system behavior over successive time steps. In response to that, we encode the directional expected variation of the predicted quantities using a simple physics model that is stochastically calibrated on the experimental dataset. Thus, in addition to assessing the error rate of the sequential DL model on genuine flight tests, we examine the extent to which the trajectory of its time series predictions matches the expected dynamics of variation under craftly-designed synthetic flight scenarios.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Testing Feedforward Neural Networks Training Programs</title>
+      <link>https://hoss-bb.github.io/publication/deepchecker/</link>
+      <pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://hoss-bb.github.io/publication/deepchecker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Are You Aware How Difficult Your Regression Problem Is?</title>
+      <link></link>
+      <pubDate>Mon, 31 Jan 2022 00:00:00 +0000</pubDate>
+      <guid></guid>
+      <description>&lt;p&gt;Many ML posts have discussed the complexities of classification problems, such as their class sensitivity and imbalanced labels. Even though regression problems are equally prevalent, there is no common preliminary analytics to assess the complexity of a given regression problem. Fortunately, ML researchers [1, 2] have adapted well-known classification complexity measures to numerically quantify the inherent difficulty of fitting regression datasets based on either Feature Correlation, Linearity, or Smoothness Measures.&lt;/p&gt;
+&lt;p&gt;I will describe systematically the intuition, the definition, and the properties of each complexity measure, as well as how I implemented them in Python. This post is intended to empower the ML practitioners by handy means that help them distinguish between simple linear problems and more complex variations. As a matter of readability, I occasionally use functions from a helper module that I share on GitHub.&lt;/p&gt;
+&lt;p&gt;Feature Correlation Measures (C)
+C1/C2: Maximum/Average Feature Correlation
+Intuition: The absolute value of correlation between a feature and a target reflects the strength of their relationship, which indicates how much information (scale from 0 to 1) the feature can provide on the target.&lt;/p&gt;
+&lt;p&gt;Definition: The C1 and C1 metrics represent, respectively, the maximum and the average of the feature correlation to the target output. The feature correlation is estimated by the absolute value of Spearman correlation [3], which is a non-parametric measure.&lt;/p&gt;
+&lt;p&gt;Properties: C1 and C2 are within the range of [0, 1] and their high values suggest simpler regression problems.&lt;/p&gt;
+&lt;p&gt;C3: Individual Feature Efficiency
+Intuition: Different subjects or samples were included in the data, so the relationship between a feature and a target could be strong in some cases and weak in others. The regression is simplified when features are highly correlated with the target in the majority of cases.&lt;/p&gt;
+&lt;p&gt;Definition: The C3 measure estimates the minimum proportion of examples that should be removed in order to produce a sub-dataset, where one feature is highly-correlated to the target output. Hence, it is necessary to fix a correlation threshold to determine if a feature can be regarded as highly-correlated with the output. For each feature, one can infer, iteratively, the proportion of examples that must be removed until the correlation to the output exceeds the predefined threshold. Thus, C3 consists of the minimum value of all the computed proportions.&lt;/p&gt;
+&lt;p&gt;Properties: C3 yields values within [0, 1] and simpler regression problems would have low values.&lt;/p&gt;
+&lt;p&gt;C4: Collective Feature Efficiency
+Intuition: Previously, we looked at the feature highly-correlated to the target when less rows should be removed. Here we consider the features’ contribution to explain the target variance collectively.&lt;/p&gt;
+&lt;p&gt;Definition: The C4 measure consists of the proportion of remaining examples that can be explained by any of the features. As a first step, one iterates over the features based on their correlation to the output, starting from the high values. Then, all examples whose outputs can be explained by a linear model [4] using the selected feature are eliminated. Indeed, the ability to explain the output of an example is determined by a residual value that is less than a predefined threshold. Therefore, the iterative process ends when all features have been analyzed or no examples are left, and the C4 measure is equal to the ratio of the remaining examples.&lt;/p&gt;
+&lt;p&gt;Properties: C4 returns values within [0, 1] and regression problems with lower C4 values are simpler.&lt;/p&gt;
+&lt;p&gt;Linearity Measures (L)
+L1/L2: Average/Absolute Error of Linear Model
+Intuition: If a linear function can approximately fit the data, the regression problem can be seen as simple involving linearly-distributed data points.&lt;/p&gt;
+&lt;p&gt;Definition: L1 or L2 measures represent, respectively, the sums of either the absolute residuals [5] or the squared residuals [5] from a multivariate linear regression model.&lt;/p&gt;
+&lt;p&gt;Properties: The L1 and L2 are positive metrics with lower scores for simple regression problems that can be nearly solved with a linear function.&lt;/p&gt;
+&lt;p&gt;L3: Non-linearity of a Linear Model
+Intuition: If the original data points are linearly distributed, a fit linear model can predict their interpolated variants within the distribution.&lt;/p&gt;
+&lt;p&gt;Definition: L3 measures how sensitive a linear regressor is to linearly-derived synthetic data. Random interpolations within the original data distribution can be used to generate the synthetic data. A pair of data points, x_iand x_jwith close outputs (low |y_i-y_j|), yield the new test input : (x_k,y_k)=(alpha*x_i + (1 — alpha)&lt;em&gt;x_j, alpha&lt;/em&gt;y_i + (1 — alpha)*y_j) , wherealphais a real number randomly sampled within [0, 1]. Using a linear model trained on the original data, the outputs of the derived random inputs are predicted. As a result, L3 is equal to the resulting mean square error over all synthetic inputs.&lt;/p&gt;
+&lt;p&gt;Properties: L3 is always positive, and remains low as long as the regression problem is simple.&lt;/p&gt;
+&lt;p&gt;Smoothness Measures (S)
+S1: Output Distribution
+Intuition: If the data points that are adjacent in the input space have also close outputs, then predicting targets based on the input features would be simpler.&lt;/p&gt;
+&lt;p&gt;Definition: S1 measures to which extent a pair of neighboring data points would have close output values. First, a Minimum Spanning Tree (MST) [6] is generated from data. Herewith, each data point corresponds to a vertex of the graph. The edges are weighted according to the Euclidean distance between the data points. The MST technique consists of greedily connecting closer vertices together. Thus, S1 measures the average of the absolute output differences between the data points joined in the constructed MST.&lt;/p&gt;
+&lt;p&gt;Properties: S1 is always positive, and tends to be zero for simple regression problems where the outputs of neighboring input features are close as well.&lt;/p&gt;
+&lt;p&gt;S2: Input Distribution
+Intuition: It would be easier to predict targets based on the input features if the data points with close outputs are also close in the input space.&lt;/p&gt;
+&lt;p&gt;Definition: S2 measures to which extent pairs of near-output data points are really close in the input space. First, one sorts the data points according to their output values, and then, estimates the distance between each pair of adjacent rows. Thereafter, S2 returns the average of distances between output-close inputs.&lt;/p&gt;
+&lt;p&gt;Properties: S2 is always positive, and tends to be zero for simple regression problems where the input features with close inputs are also neighbors in the input space.&lt;/p&gt;
+&lt;p&gt;S3: Average Error of The Nearest Neighbor Model
+Intuition: In a simple regression problem with high density, the nearest neighbor of an example can tell us much about it.&lt;/p&gt;
+&lt;p&gt;Definition: S3 calculates the mean squared error of a nearest neighbor regressor (kNN [7] with k=1), using leave-one-out. In other words, S3 returns the average error when the prediction of a data point is simply the output of its nearest neighbor based on Euclidean distance.&lt;/p&gt;
+&lt;p&gt;Properties: S3 is a positive measure whose lower values indicate simpler regressions.&lt;/p&gt;
+&lt;p&gt;S4: Non-linearity of The Nearest Neighbor Model&lt;/p&gt;
+&lt;p&gt;Intuition: For a simple regression problem with high density, an interpolated synthetic data point within the data distribution would find an informative nearest neighbor from the originals.&lt;/p&gt;
+&lt;p&gt;Definition: S4 indicates how informative an original nearest neighbor is in relation to a linearly-derived synthetic input. A synthetic set of inputs can be generated by randomly interpolating within the distribution of original data. Every pair of data points, x_i and x_j with close outputs (low |y_i-y_j|), yield the new test input (x_k,y_k)=(alpha*x_i + (1-alpha)&lt;em&gt;x_j, alpha&lt;/em&gt;y_i + (1 — alpha)*y_j) , wherealphais a real number randomly sampled within [0, 1]. Based on the nearest neighbor regression model, the outputs of the derived random inputs are predicted. As a result, the S4 index is equal to the resulting mean square error over all synthetic inputs.&lt;/p&gt;
+&lt;p&gt;Properties: S4 returns positive values, but they are lower for simpler regression problems.&lt;/p&gt;
+&lt;p&gt;That’s awesome you made it to the end. Feel free to use these metrics to gauge the inherent complexity of your next regression problem, and let us know what you think in the comments.&lt;/p&gt;
+&lt;p&gt;References
+[1] Maciel et al., Measuring the Complexity of Regression Problems (2016), International Joint Conference on Neural Networks (Vancouver).&lt;/p&gt;
+&lt;p&gt;[2] Lorena et al., Data Complexity Meta-features for Regression Problems (2018), Machine Learning (Volume 107, Issue 1, pp 209–246).&lt;/p&gt;
+&lt;p&gt;[3] Juhi Ramzai, Clearly explained: Pearson V/S Spearman Correlation Coefficient (2020), TDS.&lt;/p&gt;
+&lt;p&gt;[4] Tony Yiu, Understanding Linear Regression (2020), TDS.&lt;/p&gt;
+&lt;p&gt;[5] Akshita Chugh, MAE, MSE, RMSE, Coefficient of Determination, Adjusted R Squared — Which Metric is Better?(2020), Medium.&lt;/p&gt;
+&lt;p&gt;[6] Payal Patel, Minimum spanning tree (2019), Medium.&lt;/p&gt;
+&lt;p&gt;[7] Bex T., Intro to Scikit-learn’s k-Nearest-Neighbors Classifier And Regressor (2021), TDS.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>How to Make Systematic Choices of Machine Learning Models</title>
+      <link></link>
+      <pubDate>Wed, 05 Jan 2022 00:00:00 +0000</pubDate>
+      <guid></guid>
+      <description>&lt;p&gt;The democratization of Machine Learning is driven by major tech firms and prestigious AI labs that have released powerful and ready-to-use ML libraries. With so many possible ML models available in this democratic ML age, it opens up the perennial question of ‘Which ML model to choose for a new statistical learning problem?’. But lucky you! In this post, I would discuss five simple and effective criteria that you can use to narrow down significantly your choices of ML models and avoid testing unsuitable models.&lt;/p&gt;
+&lt;p&gt;At the beginning, I would like to define two classes of ML models which we refer to in this post: (i) Parametric models, which summarize data with a finite set of parameters independent of the number of training data points. In other words, they try to fit the data into known-form mapping functions. For instance, a linear regression model assumes that the labeled data, D=(X,y), could be mapped by a linear function, y=f(X) , where f(X)=W.X+b; (ii) Non-parametric models, which make no assumptions about the form of the function mapping the data. For example, KNN attempts to predict the outcome for an unseen data point by combining the labels of its ‘k’ nearest data points. You can read more about both classes in [1].&lt;/p&gt;
+&lt;p&gt;Criteria #1: Look at your data structure
+Data structure is the first criterion for selecting ML models. In fact, raw data, such as images, audio files, and pure text, are considered unstructured inputs. These types of data have been successfully processed by deep neural networks (DNN). I plan to address the issue of choosing the DNN architecture in a separate blog post. For now, I would recommend starting out with CNN[2], RNN[3], and Transformers[4] in the case of images, audio, and text. You may find the TDS posts [2, 3, 4] helpful to get started with these DNN architectures. Alternatively, tabular information that is derived from conventional databases and excel sheets is known as structured data. Hence, the next criteria would be the selection of ML models for structured data.&lt;/p&gt;
+&lt;p&gt;Criteria #2: Measure the size of your data
+The second criterion relies on the size of data you have available.&lt;/p&gt;
+&lt;p&gt;In fact, there are ML models that are adapted to large amounts of data. In Scikit-learn, SGDClassifier and SGDRegressor represent the estimators that use SGD to find the best parameters of the selected parametric model. SGD stands for Stochastic Gradient Descent. It is a variant of gradient descent that estimates the gradient on a subset of data points (called a batch of data) at every iteration instead of using the full dataset. Hence, this gives birth to a new term, epoch, which means the number of iterations needed for the SGD to make a single pass over all the dataset. For a more detailed explanation of SGD, we refer to this post [5] on TDS. In case the data contains nonlinearities, it becomes necessary to implement feedforward neural networks using the Keras or Pytorch libraries. To avoid overfitting your data, it is crucial to design neural networks with a depth that is appropriate for the complexity of the problem, rather than using deep ones from the start.&lt;/p&gt;
+&lt;p&gt;In contrast, other ML models are not efficient at all when dealing with large training datasets. An example of this is the KNN algorithm. Since it retains the entire training dataset in memory, KNN would be unable to manage large numbers of instances and inference would be extremely slow due to the compute-intensive distances to estimate for each prediction. As a rule of thumb, we can use 100k data points, as stated in Scikit-learn official docs, in order to distinguish between large and small datasets.&lt;/p&gt;
+&lt;p&gt;Criteria #3: Test the normality of your data
+Normality of the data means the tendency of data towards being normally distributed. I refer to these posts, [6] and [7], that introduce, respectively the normal distribution and conventional normality tests. Here, we are interested in separating the set of ML models with respect to their assumptions on data normality. Indeed, linear models including linear regressors and logistic regression classifiers, explicitly assume that the input data satisfy a bivariate or multivariate normal distribution. On the other side, decision tree and its popular ensemble-based derivative, random forest, work very well in the case of non-normally distributed data. For a broader scope of ML models, it is important to know that the parametric models actually work very well on data that follows foreknown distributions. Otherwise, we might, then, leverage non-parametric alternatives. Normality, as a common situation, is related to gaussian distribution trends in the data.&lt;/p&gt;
+&lt;p&gt;Criteria #4: Examine the expected variance of your features’ importance
+Regarding normally-distributed data, we should consider further the expected variance of features’ importance to determine which parametric model to use. In fact, ML models with L1 penalization[8] on their coefficients will tend to eliminate the irrelevant features and converge to a simpler model whenever possible. The importance of features could be derived from exploratory statistical analyses or through discussions with domain experts.&lt;/p&gt;
+&lt;p&gt;Criteria #5: Verify the proportion of categorical features
+When dealing with non-normal data, we should check the proportion of categorical features compared to the continuous ones. It is true that we can discretize[9] the continuous features, or perform one-hot encoding[10] on categorical features. However, we are interested here in the percentage of authentic categorical features, which are more natural and representative if they are maintained as categories. Therefore, the strategy is simple. Decision tree and random forest work with categorical features that would be directly used to separate the remaining data instances into branches of different category values. However, the remaining models involving distances or kernel functions are better in place to handle continuous real-valued features.&lt;/p&gt;
+&lt;p&gt;Simple Decision Tree Diagram for ML Models
+So there you have it, the above decision tree diagram summarizes the model selection criteria. The diagram is short and very practical. It is good to keep it in mind or to take a quick look at it when choosing your next ML model.&lt;/p&gt;
+&lt;p&gt;Final Words
+Having made it to the end, you deserve a couple of bonus tips:&lt;/p&gt;
+&lt;p&gt;Bonus Tip 1: Start with the model you’re already familiar with in each branch.&lt;/p&gt;
+&lt;p&gt;You would be more willing to train and tune it. By mastering the ML model, you determine if you have done any mistakes or bugs in previous steps through the abnormal behaviors you might have. After you’re done with it, you can move on to more complex ML models that you’re still learning.&lt;/p&gt;
+&lt;p&gt;Bonus Tip 2: Dedicate enough time and effort to the preprocessing of data.&lt;/p&gt;
+&lt;p&gt;It is important to keep in mind: garbage in, garbage out. The recipe to choose the ML model was given to you, but like any recipe, its added value would diminish substantially with low-quality ingredients. Believe me, any grilling recipe you follow won’t make a round bottom steak taste like a tenderloin steak AAA Beef. Hence, ensure you have high-quality inputs in the entrance for best results.&lt;/p&gt;
+&lt;p&gt;References
+[1] Jason Brownlee, Parametric and Nonparametric Machine Learning Algorithms (2016), Machine Learning Mastery&lt;/p&gt;
+&lt;p&gt;[2] Md Shahid, Convolutional Neural Network (2019), TDS&lt;/p&gt;
+&lt;p&gt;[3] Papia Nandi, Recurrent Neural Nets for Audio Classification (2021), TDS&lt;/p&gt;
+&lt;p&gt;[4] Eduardo Muñoz, Attention is all you need: Discovering the Transformer paper (2020), TDS&lt;/p&gt;
+&lt;p&gt;[5] Aishwarya V Srinivasan, Stochastic Gradient Descent — Clearly Explained (2019), TDS&lt;/p&gt;
+&lt;p&gt;[6] Harshdeep Singh, Normality? How do we check that? (2021), TDS&lt;/p&gt;
+&lt;p&gt;[7] Farhad Malik, Ever Wondered Why Normal Distribution Is So Important?(2019), Medium&lt;/p&gt;
+&lt;p&gt;[8] Soner Yıldırım, L1 and L2 Regularization — Explained (2020), TDS&lt;/p&gt;
+&lt;p&gt;[9] Dinesh Yadav, Categorical encoding using Label-Encoding and One-Hot-Encoder (2019), TDS&lt;/p&gt;
+&lt;p&gt;[10] Rohan Gupta, An Introduction to Discretization Techniques for Data Scientists (2019), TDS&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>How to Crack Python Errors Like a Pro</title>
+      <link></link>
+      <pubDate>Fri, 31 Dec 2021 00:00:00 +0000</pubDate>
+      <guid></guid>
+      <description>&lt;p&gt;Python is a high-level programming language that is closer to natural human language. The benefit of this is that Python code is easy to comprehend and simple to implement. 48% of developers work with it, according to the 2021 Stack Overflow survey. In the coming years, this ratio will surely continue to grow.&lt;/p&gt;
+&lt;p&gt;Indeed, Python has initially attracted academics and professionals who use coding as a way to prototype their ideas, to demonstrate concepts, and to implement proof-of-concepts. Nowadays, Python has already conquered many fields of software applications including Devops scripting, Machine Learning ( NumPy, pandas, sklearn, and Tensorflow and Web backends (Django and Flask).&lt;/p&gt;
+&lt;p&gt;In this post, I introduce a practical strategy to crack Python errors for beginners, starting by showing the essential strategy steps for this well-known exception, ZeroDivision, raised in the below code example.&lt;/p&gt;
+&lt;p&gt;Python Error Cracking Steps on an Illustrative Example
+Our proposed error cracking strategy consists of three steps: (1) Scroll until you reach the bottom to find the error type; (2) Examine carefully the inline message that appears next to the error type in order to understand how it occurred; (3) Look closely at the trace of function calls and follow the horizontal arrows until you identify which line of code is faulty.&lt;/p&gt;
+&lt;p&gt;The ZeroDivisionError is a prevalent exception that points out directly to the root cause. We can consider them as specific exceptions such as FileNotFoundError and UnicodeError. Even beginners can find the code recipes on StackOverflow(SO) for fixing them. Nevertheless, there are generic exceptions, mostly the result of typos and careless mistakes during a deadline rush. Especially when a lot of the details in the error message pertain to your application code, googling these errors can be misleading due to the wide variability of possible causes.&lt;/p&gt;
+&lt;p&gt;The remaining paragraphs will provide you with an overview and explanation of some common types of errors. The above-described cracking method can better solve these types of errors. In this way, you’ll be able to save a great deal of time and effort spent reading posts about other SO users’ errors. Besides, you will also become more proficient at debugging yourself through this process, which will teach you more about the Python language.&lt;/p&gt;
+&lt;p&gt;SyntaxError
+Raised when the parser encounters a syntax error. — Python Official Docs&lt;/p&gt;
+&lt;p&gt;A Python parser cannot recognize the structure or sequence of tokens in a running program, which leads to syntax errors. Most often, this is due to missing or unnecessary characters, including commas, parentheses, etc.&lt;/p&gt;
+&lt;p&gt;Python Code Snippet of Raised SyntaxError Exceptions
+In this example of SyntaxError, the occurred errors’ type and message are clear indicators that the code statement is syntactically invalid. Nevertheless, the difficulty of fault localization differs between them.&lt;/p&gt;
+&lt;p&gt;First Cell: We look at the traceback to determine the cause (Here, there is just a single line of code 1). A small vertical arrow points out the exact location of the syntax error on this faulty line. So, you’ve spotted it. Just get rid of the comma in-between the for loops.
+Second Cell: It turns out that the code line (11) is not the faulty one, and the SyntaxErroris due to the missing parentheses in line (9). The parser, however, incorrectly identifies this location since it expects a closing parenthese there (rather than a new code statement), but it didn’t find it.
+Therefore, we should analyze reversely the code by starting at the indicated location of the SyntaxError. By not following this bottom-up debugging technique, you may find yourself searching StackOverflow for syntax errors in contexts that have similar keywords, names, and libraries to your own.&lt;/p&gt;
+&lt;p&gt;NameError
+Raised when a local or global name is not found. — Python Official Docs&lt;/p&gt;
+&lt;p&gt;Basically, developers get this error when they try to use a non-existent variable or function.&lt;/p&gt;
+&lt;p&gt;This is often caused by a misspelling in the name, such as the above example, where we spelled incorrectly the name of the function from the previous code snippet. This can happen when the developer forgets to import or declare the variable/function in the first place, as well as when he fails to run the cell that contains the underlying declaration.&lt;/p&gt;
+&lt;p&gt;IndexError
+Raised when a sequence subscript is out of range. — Python Official Docs&lt;/p&gt;
+&lt;p&gt;Simply, developers face this error when they try to access a non-existent cell in a sequence such as list, array, or dataframe.&lt;/p&gt;
+&lt;p&gt;As can be seen in the provided code example, the message associated to IndexErrorwould include useful details to remove the fault. Generally, the message reports the requested index and the size of the axis to which the cell belongs.&lt;/p&gt;
+&lt;p&gt;KeyError
+Raised when a mapping key is not found in the set of existing keys. — Python Official Docs&lt;/p&gt;
+&lt;p&gt;Primarily, developers encounter this error when they try to access a non-existent key in a dictionary or dataframe.&lt;/p&gt;
+&lt;p&gt;It seems simple, but we sometimes generate these keys automatically, and the names of the keys have little meaning for us. You can see an example of this error above, where I put the wrong condition in the while loop i &amp;lt;= ninstead of i &amp;lt; n.&lt;/p&gt;
+&lt;p&gt;AttributeError
+Raised when an attribute reference or assignment fails. — Python Official Docs&lt;/p&gt;
+&lt;p&gt;Developers get this error whenever they try to access a non-existent variable/function from an imported object or module.&lt;/p&gt;
+&lt;p&gt;The above example of AttributeError illustrates the mis-use of scikit-learn Model object by calling accuracy instead of score . Once you face this type of error, you should re-verify the existence of the attribute in the imported object or module by inspecting the code files or the underlying library’s official docs.&lt;/p&gt;
+&lt;p&gt;TypeError
+Raised when an operation or function is applied to an object of inappropriate type. — Python Official Docs&lt;/p&gt;
+&lt;p&gt;As indicated by its name, this error is mainly related to an incorrect type of variable/attribute/object. Nonetheless, it is often tricky to localize it.&lt;/p&gt;
+&lt;p&gt;First Cell: The error type and the message accompanying it are extremely clear. As I inferred a column based on other columns in a Pandas data frame, the resulting traceback includes a lot of sub-modules from the Pandas library. Consequently, it is wise to ignore all the Pandas’ inner functions and focus on the parts and lines of code we actually wrote. For instance, the code line, df[&amp;lsquo;Savings&amp;rsquo;]=df[&amp;lsquo;Income&amp;rsquo;]-df[&amp;lsquo;Expenses&amp;rsquo;], where I inferred the ‘Savings’ column, is flagged within the traceback. To find the root cause, a simple check of the columns’ types would suffice.
+Bonus Tip: When examining the traceback (Step 3), pay attention primarily to the function calls in your written modules.&lt;/p&gt;
+&lt;p&gt;Second Cell: Type errors that are less straightforward often appear in function or constructor calls. In this example, I made a misspelling error in an argument for the Model’s constructor. As a result, a traceback would be of little use to us. It would just help us identify the underlying function or object. The mistaken argument keyword would show up in the error message. Therefore, we need to look at the documentation or the source code of the function to find the error and fix it.
+Third Cell: Here we call concatenate on two NumPy arrays, but concatenate expects a list of arrays to be concatenated, not two separate arguments. This is a common fault, as Python libraries might declare functions that deal with entries of the same variable’s type, using either multiple arguments (i.e., def func(**args)) or an argument of Iterabletype (i.e., def func(args:Iterable)). Clearly, the error message does not say much because the interpreter fails to convert the variables into the arguments types. Hence, it is necessary to verify the official library documentation or the source code of the underlying function to spot the root cause.
+ValueError
+Raised when an operation or function receives an argument that has the right type but an inappropriate value. — Python Official Docs&lt;/p&gt;
+&lt;p&gt;Last and not least, ValueErroris caused by an invalid value of an argument, which prevents the function from fulfilling the task.&lt;/p&gt;
+&lt;p&gt;The above code example shows misuse of a scikit-learn Model fit()function using inputs and targets with unmatched size. As the Model fit()is designed to handle such errors, the developer has included this exception to alert the users to the problem. Otherwise, some computations would fail with less obvious exceptions or the program remains silent and the results would be incorrect. In order to demonstrate the developer’s anticipation of ValueError, let us fix the first code example in this post by raising a ValueErrorthat appears when the user assigns the argument b to zero. The below snippet of code shows the required changes.&lt;/p&gt;
+&lt;p&gt;Final Words
+I’m glad you made it all the way to the end. It would have been nice if I could finally have convinced you to stop copy-pasting the whole exception into Google and Stackoverflow search bars without any prior debugging in hopes of finding a ready-to-use fix. With practice, you will become able to quickly locate these bugs and fix them during the coding process, without having to go through other people’s shared errors.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Faults in Deep Reinforcement Learning Programs: a Taxonomy and a Detection Approach</title>
+      <link>https://hoss-bb.github.io/publication/ase2021/</link>
+      <pubDate>Tue, 28 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://hoss-bb.github.io/publication/ase2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Machine Learning Is Actually Altering Software Eng. Practices</title>
+      <link></link>
+      <pubDate>Thu, 23 Dec 2021 00:00:00 +0000</pubDate>
+      <guid></guid>
+      <description>&lt;p&gt;Like many ML practitioners with an SE background, I’ve observed on several occasions that the development process for ML-enabled software differs profoundly from that for conventional apps. Upon reading the empirical study[1] recently published by a group of SE researchers, I came up with a clear explanation of my early impressions. Indeed, this fascinating research work has explored thoroughly how machine learning impacts software development practices such as design and testing, as well as characteristics of work like skill variety and job complexity.&lt;/p&gt;
+&lt;p&gt;Mix of qualitative and quantitative analyses at a large scale&lt;/p&gt;
+&lt;p&gt;Empirical Study Methodology
+To begin, I will summarize the above-illustrated methodology applied by Wan et al.[1] in order to derive the statistically-confirmed statements of differences between ML and non-ML software engineering practices.&lt;/p&gt;
+&lt;p&gt;In the first round of interviews, 14 senior software professionals with experience in both ML and non-ML development were contacted to assemble the list of candidate statements of differences. Following open card sorting, a total of 80 statements were retained for the next steps.
+During the second round, three focus groups discuss the retained list, reducing it to 31 statements to be included in the survey.
+In the last round of the survey, hundreds of participants from various backgrounds responded to each statement on a five-point Likert scale, ranging from totally disagree to strongly agree. This will enable the comparison of the Likert distributions obtained from different groups of respondents for each statement.
+In fact, Wan et al.[1] recruited 342 respondents across 26 countries on 4 continents, both from ML and non-ML populations, to increase the credibility of their inferences.&lt;/p&gt;
+&lt;p&gt;Based on the original survey results, 11 significant differences were found between ML and non-ML development. In order to make this article lightweight and easy to read, I will comment only on 3+3 statistically-confirmed statements about the differences between ML and non-ML software when it comes to development practices and characteristics of work.&lt;/p&gt;
+&lt;p&gt;Development Practices: Software Requirements
+“Collecting requirements involve a large number of preliminary experiments.”&lt;/p&gt;
+&lt;p&gt;To define the software requirements, ML developers agree that many experiments are needed. This refers to the stage where they try out some machine learning algorithms on samples of data in order to get preliminary insights. While the type of the data and the learning task often lead to certain models, several architectures and hyperparameters remain open to experimental evaluation.&lt;/p&gt;
+&lt;p&gt;Development Practices: Software Design
+“Detailed design is time-consuming and conducted in an iterative way.”&lt;/p&gt;
+&lt;p&gt;In terms of software design, ML practitioners consider the detailed design of ML systems is often the result of time-consuming, intensively-iterative processes. According to the previous statement, the feedback provided by the on-going experiments on the data would continuously influence the design decisions of future improvements.&lt;/p&gt;
+&lt;p&gt;Development Practices: Software Testing
+“Collecting testing dataset is labor intensive.”&lt;/p&gt;
+&lt;p&gt;Last but not least, ML developers agree that collecting test data requires a lot of effort. This can be explained by the fact that most of the available data would influence the design and development of the ML system, then, a subset of held-out data would be used for testing. Even so, ML developers often keep only a relatively small fraction of the initial dataset and a further collection is necessary to assess the ML system’s different behaviors. A recent Google researchers work[2] clearly describes the underspecification pipeline problem, which is the most common issue with insignificant test datasets. In a nutshell, DL practitioners come up with many models that yield equivalent performances against the test datasets but would behave differently under deployment settings. Thus, having reliable test datasets is a must-have to separate effective models from ineffective ones before releasing the ML software system.&lt;/p&gt;
+&lt;p&gt;Work Characteristics: Skill Variety
+“Developing my software requires knowledge in math, information theory, and statistics.”&lt;/p&gt;
+&lt;p&gt;In order to implement and integrate machine learning algorithms into software systems, developers must understand the mathematics inherent in the ML models. The latter are statistical learning algorithms that employ stochastic and iterative optimization processes. Coursera has an interesting course provided by Imperial College London on the maths behind ML.&lt;/p&gt;
+&lt;p&gt;Work Characteristics: Task Identity
+“It is easy to make an accurate plan for development tasks of my software.”&lt;/p&gt;
+&lt;p&gt;ML developers disagree about having an accurate plan for development tasks. The confusion comes from the fact that at a high level we know the phases are: collect and preprocess data, feature engineering, construct ML models, train them, tune their hyperparameters, compare their performances against held-out test data, etc. Despite this, it is difficult to create a task plan at the low level, since usually the next task will be determined based on the results of the previous task.&lt;/p&gt;
+&lt;p&gt;Work Characteristics: Interactions outside the Organisation
+“Developing my software requires frequent communications with the clients.”&lt;/p&gt;
+&lt;p&gt;There is a non-consenting answer from ML developers regarding the necessity of frequent communication with customers. As opposed to non-ML developers who strongly agree. A possible explanation for this can be found in the inherent complexity of the ML algorithms, as well as the difficulty of interpreting both of their successes and failures. ML practitioners typically handle these challenges by pushing back customer communication until being able to provide decent explanations and talk about real-world results from pre-production testing.&lt;/p&gt;
+&lt;p&gt;Overall Visual Summary&lt;/p&gt;
+&lt;p&gt;Visual Summary of ML-induced changes in both of SE development practices and work characteristics
+You have made it all the way to the end. I would guess you are either an ML practitioner or software developer. Let us know if you agree or disagree with the statements of differences. Thanks :)&lt;/p&gt;
+&lt;p&gt;References
+[1] Wan, Z., Xia, X., Lo, D., &amp;amp; Murphy, G. C. , How does machine learning change software development practices?(2019), IEEE Transactions on Software Engineering.&lt;/p&gt;
+&lt;p&gt;[2] D’AMOUR, Alexander, HELLER, Katherine, MOLDOVAN, Dan, et al. Underspecification presents challenges for credibility in modern machine learning. (2020), arXiv preprint arXiv:2011.03395.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Automatic Fault Detection for Deep Learning Programs Using Graph Transformations</title>
+      <link>https://hoss-bb.github.io/publication/neuralint/</link>
+      <pubDate>Tue, 28 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>https://hoss-bb.github.io/publication/neuralint/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Models of Computational Profiles to Study the Likelihood of DNN Metamorphic Test Cases</title>
+      <link>https://hoss-bb.github.io/publication/imlse2020/</link>
+      <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://hoss-bb.github.io/publication/imlse2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Scent of Deep Learning Code: An Empirical Study</title>
+      <link>https://hoss-bb.github.io/publication/msr2020/</link>
+      <pubDate>Sun, 28 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>https://hoss-bb.github.io/publication/msr2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On Testing Machine Learning Programs</title>
+      <link>https://hoss-bb.github.io/publication/review/</link>
+      <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>https://hoss-bb.github.io/publication/review/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hands-on Coding Session on Debugging Neural Networks Programs</title>
+      <link>https://hoss-bb.github.io/talk/hands-on-coding-session-on-debugging-neural-networks-programs/</link>
+      <pubDate>Tue, 03 Mar 2020 15:00:00 +0000</pubDate>
+      <guid>https://hoss-bb.github.io/talk/hands-on-coding-session-on-debugging-neural-networks-programs/</guid>
+      <description>&lt;p&gt;The goal of this hands-on session is to practice troubleshooting neural network training programs. The provided example consists of a VGG-like ConvNet trained on CIFAR-10 classification. If we fix the injected bugs (that I know), it should achieve more than 80% accuracy on the test set after more than 20 epochs. The debugging process is more relevant than finding the bug. Hence, we will walk through the steps you should follow towards hunting bugs. It is not about doing an in-depth review of code based on the participant&amp;rsquo;s Tensorflow coding skills, but rather about codifying verification routines in order to monitor the dynamics of critical variables and components that may indicate coding errors, misconfigurations, or training anomalies.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Dagstuhl Seminar 20091 on Software Engineering for AI-ML-based Systems</title>
+      <link>https://hoss-bb.github.io/project/dagstuhl/</link>
+      <pubDate>Thu, 20 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>https://hoss-bb.github.io/project/dagstuhl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shonan Meeting NO.156 on Software Engineering for Machine Learning Applications</title>
+      <link>https://hoss-bb.github.io/project/shonan/</link>
+      <pubDate>Sun, 20 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://hoss-bb.github.io/project/shonan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DeepEvolution: A Search-Based Testing Approach for Deep Neural Networks</title>
+      <link>https://hoss-bb.github.io/publication/deepevolution/</link>
+      <pubDate>Sun, 01 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>https://hoss-bb.github.io/publication/deepevolution/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TFCheck : A TensorFlow Library for Detecting Training Issues in Neural Network Programs</title>
+      <link>https://hoss-bb.github.io/publication/tfcheck/</link>
+      <pubDate>Mon, 22 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>https://hoss-bb.github.io/publication/tfcheck/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hands-on Coding Session on Metamorphic Testing of Neural Networks</title>
+      <link>https://hoss-bb.github.io/talk/hands-on-coding-session-on-metamorphic-testing-of-neural-networks/</link>
+      <pubDate>Thu, 23 May 2019 14:00:00 +0000</pubDate>
+      <guid>https://hoss-bb.github.io/talk/hands-on-coding-session-on-metamorphic-testing-of-neural-networks/</guid>
+      <description>&lt;p&gt;Automating large-scale test case generation requires using multiple image transformations to build a large number of metamorphic transformations and their follow-up tests, in order to find DNN&amp;rsquo;s erroneous behaviors. In fact, the metamorphic transformation should be designed so that the transformed and original inputs are semantically equivalent. Thus, the first coding task is to implement metamorphic transformations on the input, assembling all the provided image-based transformations to guarantee the diversity of generated inputs. In order to estimate the level of logic explored by inputs, neuronal coverage criteria are employed, which estimate the amount of activation states covered by inputs. It is therefore essential that we store each valid synthetic input that fools the DNN under test. Hence, the second coding task is to develop the follow-up test that takes the logits returned by the DNN for the transformed data to check if the test fails or succeeds, then stores the synthetic images corresponding to the failed tests.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Slides</title>
+      <link>https://hoss-bb.github.io/slides/example/</link>
+      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>https://hoss-bb.github.io/slides/example/</guid>
+      <description>&lt;h1 id=&#34;create-slides-in-markdown-with-wowchemy&#34;&gt;Create slides in Markdown with Wowchemy&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://wowchemy.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wowchemy&lt;/a&gt; | &lt;a href=&#34;https://wowchemy.com/docs/content/slides/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Efficiently write slides in Markdown&lt;/li&gt;
+&lt;li&gt;3-in-1: Create, Present, and Publish your slides&lt;/li&gt;
+&lt;li&gt;Supports speaker notes&lt;/li&gt;
+&lt;li&gt;Mobile friendly slides&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;controls&#34;&gt;Controls&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Next: &lt;code&gt;Right Arrow&lt;/code&gt; or &lt;code&gt;Space&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Previous: &lt;code&gt;Left Arrow&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Start: &lt;code&gt;Home&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Finish: &lt;code&gt;End&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Overview: &lt;code&gt;Esc&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Speaker notes: &lt;code&gt;S&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Fullscreen: &lt;code&gt;F&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Zoom: &lt;code&gt;Alt + Click&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://revealjs.com/pdf-export/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF Export&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;code-highlighting&#34;&gt;Code Highlighting&lt;/h2&gt;
+&lt;p&gt;Inline code: &lt;code&gt;variable&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Code block:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;porridge&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;blueberry&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;porridge&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;==&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;blueberry&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;nb&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;Eating...&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h2 id=&#34;math&#34;&gt;Math&lt;/h2&gt;
+&lt;p&gt;In-line math: $x + y = z$&lt;/p&gt;
+&lt;p&gt;Block math:&lt;/p&gt;
+&lt;p&gt;$$
+f\left( x \right) = ;\frac{{2\left( {x + 4} \right)\left( {x - 4} \right)}}{{\left( {x + 4} \right)\left( {x + 1} \right)}}
+$$&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;fragments&#34;&gt;Fragments&lt;/h2&gt;
+&lt;p&gt;Make content appear incrementally&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{% fragment %}} One {{% /fragment %}}
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{% fragment %}} **Two** {{% /fragment %}}
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{% fragment %}} Three {{% /fragment %}}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Press &lt;code&gt;Space&lt;/code&gt; to play!&lt;/p&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+  One
+&lt;/span&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+  &lt;strong&gt;Two&lt;/strong&gt;
+&lt;/span&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+  Three
+&lt;/span&gt;
+&lt;hr&gt;
+&lt;p&gt;A fragment can accept two optional parameters:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;class&lt;/code&gt;: use a custom style (requires definition in custom CSS)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;weight&lt;/code&gt;: sets the order in which a fragment appears&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;speaker-notes&#34;&gt;Speaker Notes&lt;/h2&gt;
+&lt;p&gt;Add speaker notes to your presentation&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{% speaker_note %}}
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;-&lt;/span&gt; Only the speaker can read these notes
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;-&lt;/span&gt; Press &lt;span class=&#34;sb&#34;&gt;`S`&lt;/span&gt; key to view
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  {{% /speaker_note %}}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Press the &lt;code&gt;S&lt;/code&gt; key to view the speaker notes!&lt;/p&gt;
+&lt;aside class=&#34;notes&#34;&gt;
+  &lt;ul&gt;
+&lt;li&gt;Only the speaker can read these notes&lt;/li&gt;
+&lt;li&gt;Press &lt;code&gt;S&lt;/code&gt; key to view&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/aside&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;themes&#34;&gt;Themes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;black: Black background, white text, blue links (default)&lt;/li&gt;
+&lt;li&gt;white: White background, black text, blue links&lt;/li&gt;
+&lt;li&gt;league: Gray background, white text, blue links&lt;/li&gt;
+&lt;li&gt;beige: Beige background, dark text, brown links&lt;/li&gt;
+&lt;li&gt;sky: Blue background, thin dark text, blue links&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;night: Black background, thick white text, orange links&lt;/li&gt;
+&lt;li&gt;serif: Cappuccino background, gray text, brown links&lt;/li&gt;
+&lt;li&gt;simple: White background, black text, blue links&lt;/li&gt;
+&lt;li&gt;solarized: Cream-colored background, dark green text, blue links&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;/media/boards.jpg&#34;
+  &gt;
+
+&lt;h2 id=&#34;custom-slide&#34;&gt;Custom Slide&lt;/h2&gt;
+&lt;p&gt;Customize the slide style and background&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;slide&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;background-image&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;/media/boards.jpg&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;slide&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;background-color&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;#0000FF&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;slide&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;class&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;my-style&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h2 id=&#34;custom-css-example&#34;&gt;Custom CSS Example&lt;/h2&gt;
+&lt;p&gt;Let&amp;rsquo;s make headers navy colored.&lt;/p&gt;
+&lt;p&gt;Create &lt;code&gt;assets/css/reveal_custom.css&lt;/code&gt; with:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-css&#34; data-lang=&#34;css&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nc&#34;&gt;reveal&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;section&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;h1&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nc&#34;&gt;reveal&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;section&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;h2&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nc&#34;&gt;reveal&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;section&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;h3&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;k&#34;&gt;color&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;navy&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h1 id=&#34;questions&#34;&gt;Questions?&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://discord.gg/z8wNYzb&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ask&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://wowchemy.com/docs/content/slides/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The Open-Closed Principle of Modern Machine Learning Frameworks&#39;</title>
+      <link>https://hoss-bb.github.io/publication/msr2018/</link>
+      <pubDate>Sun, 27 May 2018 00:00:00 +0000</pubDate>
+      <guid>https://hoss-bb.github.io/publication/msr2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Aimia - Data Philanthropy 2018</title>
+      <link>https://hoss-bb.github.io/project/aimia/</link>
+      <pubDate>Fri, 20 Apr 2018 00:00:00 +0000</pubDate>
+      <guid>https://hoss-bb.github.io/project/aimia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Improved Algorithm for Hyperspectral Image Classification</title>
+      <link>https://hoss-bb.github.io/publication/jei2018/</link>
+      <pubDate>Sun, 28 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://hoss-bb.github.io/publication/jei2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://hoss-bb.github.io/admin/config.yml</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://hoss-bb.github.io/admin/config.yml</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

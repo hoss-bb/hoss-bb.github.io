@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Maching Learning | Houssem Ben Braiek</title>
+    <link>https://hoss-bb.github.io/category/maching-learning/</link>
+      <atom:link href="https://hoss-bb.github.io/category/maching-learning/index.xml" rel="self" type="application/rss+xml" />
+    <description>Maching Learning</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 31 Jan 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://hoss-bb.github.io/media/icon_hu46dff4dbf79dc03e46b38f18d11d3be0_4210_512x512_fill_lanczos_center_3.png</url>
+      <title>Maching Learning</title>
+      <link>https://hoss-bb.github.io/category/maching-learning/</link>
+    </image>
+    
+    <item>
+      <title>Are You Aware How Difficult Your Regression Problem Is?</title>
+      <link></link>
+      <pubDate>Mon, 31 Jan 2022 00:00:00 +0000</pubDate>
+      <guid></guid>
+      <description>&lt;p&gt;Many ML posts have discussed the complexities of classification problems, such as their class sensitivity and imbalanced labels. Even though regression problems are equally prevalent, there is no common preliminary analytics to assess the complexity of a given regression problem. Fortunately, ML researchers [1, 2] have adapted well-known classification complexity measures to numerically quantify the inherent difficulty of fitting regression datasets based on either Feature Correlation, Linearity, or Smoothness Measures.&lt;/p&gt;
+&lt;p&gt;I will describe systematically the intuition, the definition, and the properties of each complexity measure, as well as how I implemented them in Python. This post is intended to empower the ML practitioners by handy means that help them distinguish between simple linear problems and more complex variations. As a matter of readability, I occasionally use functions from a helper module that I share on GitHub.&lt;/p&gt;
+&lt;p&gt;Feature Correlation Measures (C)
+C1/C2: Maximum/Average Feature Correlation
+Intuition: The absolute value of correlation between a feature and a target reflects the strength of their relationship, which indicates how much information (scale from 0 to 1) the feature can provide on the target.&lt;/p&gt;
+&lt;p&gt;Definition: The C1 and C1 metrics represent, respectively, the maximum and the average of the feature correlation to the target output. The feature correlation is estimated by the absolute value of Spearman correlation [3], which is a non-parametric measure.&lt;/p&gt;
+&lt;p&gt;Properties: C1 and C2 are within the range of [0, 1] and their high values suggest simpler regression problems.&lt;/p&gt;
+&lt;p&gt;C3: Individual Feature Efficiency
+Intuition: Different subjects or samples were included in the data, so the relationship between a feature and a target could be strong in some cases and weak in others. The regression is simplified when features are highly correlated with the target in the majority of cases.&lt;/p&gt;
+&lt;p&gt;Definition: The C3 measure estimates the minimum proportion of examples that should be removed in order to produce a sub-dataset, where one feature is highly-correlated to the target output. Hence, it is necessary to fix a correlation threshold to determine if a feature can be regarded as highly-correlated with the output. For each feature, one can infer, iteratively, the proportion of examples that must be removed until the correlation to the output exceeds the predefined threshold. Thus, C3 consists of the minimum value of all the computed proportions.&lt;/p&gt;
+&lt;p&gt;Properties: C3 yields values within [0, 1] and simpler regression problems would have low values.&lt;/p&gt;
+&lt;p&gt;C4: Collective Feature Efficiency
+Intuition: Previously, we looked at the feature highly-correlated to the target when less rows should be removed. Here we consider the features’ contribution to explain the target variance collectively.&lt;/p&gt;
+&lt;p&gt;Definition: The C4 measure consists of the proportion of remaining examples that can be explained by any of the features. As a first step, one iterates over the features based on their correlation to the output, starting from the high values. Then, all examples whose outputs can be explained by a linear model [4] using the selected feature are eliminated. Indeed, the ability to explain the output of an example is determined by a residual value that is less than a predefined threshold. Therefore, the iterative process ends when all features have been analyzed or no examples are left, and the C4 measure is equal to the ratio of the remaining examples.&lt;/p&gt;
+&lt;p&gt;Properties: C4 returns values within [0, 1] and regression problems with lower C4 values are simpler.&lt;/p&gt;
+&lt;p&gt;Linearity Measures (L)
+L1/L2: Average/Absolute Error of Linear Model
+Intuition: If a linear function can approximately fit the data, the regression problem can be seen as simple involving linearly-distributed data points.&lt;/p&gt;
+&lt;p&gt;Definition: L1 or L2 measures represent, respectively, the sums of either the absolute residuals [5] or the squared residuals [5] from a multivariate linear regression model.&lt;/p&gt;
+&lt;p&gt;Properties: The L1 and L2 are positive metrics with lower scores for simple regression problems that can be nearly solved with a linear function.&lt;/p&gt;
+&lt;p&gt;L3: Non-linearity of a Linear Model
+Intuition: If the original data points are linearly distributed, a fit linear model can predict their interpolated variants within the distribution.&lt;/p&gt;
+&lt;p&gt;Definition: L3 measures how sensitive a linear regressor is to linearly-derived synthetic data. Random interpolations within the original data distribution can be used to generate the synthetic data. A pair of data points, x_iand x_jwith close outputs (low |y_i-y_j|), yield the new test input : (x_k,y_k)=(alpha*x_i + (1 — alpha)&lt;em&gt;x_j, alpha&lt;/em&gt;y_i + (1 — alpha)*y_j) , wherealphais a real number randomly sampled within [0, 1]. Using a linear model trained on the original data, the outputs of the derived random inputs are predicted. As a result, L3 is equal to the resulting mean square error over all synthetic inputs.&lt;/p&gt;
+&lt;p&gt;Properties: L3 is always positive, and remains low as long as the regression problem is simple.&lt;/p&gt;
+&lt;p&gt;Smoothness Measures (S)
+S1: Output Distribution
+Intuition: If the data points that are adjacent in the input space have also close outputs, then predicting targets based on the input features would be simpler.&lt;/p&gt;
+&lt;p&gt;Definition: S1 measures to which extent a pair of neighboring data points would have close output values. First, a Minimum Spanning Tree (MST) [6] is generated from data. Herewith, each data point corresponds to a vertex of the graph. The edges are weighted according to the Euclidean distance between the data points. The MST technique consists of greedily connecting closer vertices together. Thus, S1 measures the average of the absolute output differences between the data points joined in the constructed MST.&lt;/p&gt;
+&lt;p&gt;Properties: S1 is always positive, and tends to be zero for simple regression problems where the outputs of neighboring input features are close as well.&lt;/p&gt;
+&lt;p&gt;S2: Input Distribution
+Intuition: It would be easier to predict targets based on the input features if the data points with close outputs are also close in the input space.&lt;/p&gt;
+&lt;p&gt;Definition: S2 measures to which extent pairs of near-output data points are really close in the input space. First, one sorts the data points according to their output values, and then, estimates the distance between each pair of adjacent rows. Thereafter, S2 returns the average of distances between output-close inputs.&lt;/p&gt;
+&lt;p&gt;Properties: S2 is always positive, and tends to be zero for simple regression problems where the input features with close inputs are also neighbors in the input space.&lt;/p&gt;
+&lt;p&gt;S3: Average Error of The Nearest Neighbor Model
+Intuition: In a simple regression problem with high density, the nearest neighbor of an example can tell us much about it.&lt;/p&gt;
+&lt;p&gt;Definition: S3 calculates the mean squared error of a nearest neighbor regressor (kNN [7] with k=1), using leave-one-out. In other words, S3 returns the average error when the prediction of a data point is simply the output of its nearest neighbor based on Euclidean distance.&lt;/p&gt;
+&lt;p&gt;Properties: S3 is a positive measure whose lower values indicate simpler regressions.&lt;/p&gt;
+&lt;p&gt;S4: Non-linearity of The Nearest Neighbor Model&lt;/p&gt;
+&lt;p&gt;Intuition: For a simple regression problem with high density, an interpolated synthetic data point within the data distribution would find an informative nearest neighbor from the originals.&lt;/p&gt;
+&lt;p&gt;Definition: S4 indicates how informative an original nearest neighbor is in relation to a linearly-derived synthetic input. A synthetic set of inputs can be generated by randomly interpolating within the distribution of original data. Every pair of data points, x_i and x_j with close outputs (low |y_i-y_j|), yield the new test input (x_k,y_k)=(alpha*x_i + (1-alpha)&lt;em&gt;x_j, alpha&lt;/em&gt;y_i + (1 — alpha)*y_j) , wherealphais a real number randomly sampled within [0, 1]. Based on the nearest neighbor regression model, the outputs of the derived random inputs are predicted. As a result, the S4 index is equal to the resulting mean square error over all synthetic inputs.&lt;/p&gt;
+&lt;p&gt;Properties: S4 returns positive values, but they are lower for simpler regression problems.&lt;/p&gt;
+&lt;p&gt;That’s awesome you made it to the end. Feel free to use these metrics to gauge the inherent complexity of your next regression problem, and let us know what you think in the comments.&lt;/p&gt;
+&lt;p&gt;References
+[1] Maciel et al., Measuring the Complexity of Regression Problems (2016), International Joint Conference on Neural Networks (Vancouver).&lt;/p&gt;
+&lt;p&gt;[2] Lorena et al., Data Complexity Meta-features for Regression Problems (2018), Machine Learning (Volume 107, Issue 1, pp 209–246).&lt;/p&gt;
+&lt;p&gt;[3] Juhi Ramzai, Clearly explained: Pearson V/S Spearman Correlation Coefficient (2020), TDS.&lt;/p&gt;
+&lt;p&gt;[4] Tony Yiu, Understanding Linear Regression (2020), TDS.&lt;/p&gt;
+&lt;p&gt;[5] Akshita Chugh, MAE, MSE, RMSE, Coefficient of Determination, Adjusted R Squared — Which Metric is Better?(2020), Medium.&lt;/p&gt;
+&lt;p&gt;[6] Payal Patel, Minimum spanning tree (2019), Medium.&lt;/p&gt;
+&lt;p&gt;[7] Bex T., Intro to Scikit-learn’s k-Nearest-Neighbors Classifier And Regressor (2021), TDS.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

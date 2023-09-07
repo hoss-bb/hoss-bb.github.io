@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SE4ML | Houssem Ben Braiek</title>
+    <link>https://hoss-bb.github.io/category/se4ml/</link>
+      <atom:link href="https://hoss-bb.github.io/category/se4ml/index.xml" rel="self" type="application/rss+xml" />
+    <description>SE4ML</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 31 Dec 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://hoss-bb.github.io/media/icon_hu46dff4dbf79dc03e46b38f18d11d3be0_4210_512x512_fill_lanczos_center_3.png</url>
+      <title>SE4ML</title>
+      <link>https://hoss-bb.github.io/category/se4ml/</link>
+    </image>
+    
+    <item>
+      <title>How to Crack Python Errors Like a Pro</title>
+      <link></link>
+      <pubDate>Fri, 31 Dec 2021 00:00:00 +0000</pubDate>
+      <guid></guid>
+      <description>&lt;p&gt;Python is a high-level programming language that is closer to natural human language. The benefit of this is that Python code is easy to comprehend and simple to implement. 48% of developers work with it, according to the 2021 Stack Overflow survey. In the coming years, this ratio will surely continue to grow.&lt;/p&gt;
+&lt;p&gt;Indeed, Python has initially attracted academics and professionals who use coding as a way to prototype their ideas, to demonstrate concepts, and to implement proof-of-concepts. Nowadays, Python has already conquered many fields of software applications including Devops scripting, Machine Learning ( NumPy, pandas, sklearn, and Tensorflow and Web backends (Django and Flask).&lt;/p&gt;
+&lt;p&gt;In this post, I introduce a practical strategy to crack Python errors for beginners, starting by showing the essential strategy steps for this well-known exception, ZeroDivision, raised in the below code example.&lt;/p&gt;
+&lt;p&gt;Python Error Cracking Steps on an Illustrative Example
+Our proposed error cracking strategy consists of three steps: (1) Scroll until you reach the bottom to find the error type; (2) Examine carefully the inline message that appears next to the error type in order to understand how it occurred; (3) Look closely at the trace of function calls and follow the horizontal arrows until you identify which line of code is faulty.&lt;/p&gt;
+&lt;p&gt;The ZeroDivisionError is a prevalent exception that points out directly to the root cause. We can consider them as specific exceptions such as FileNotFoundError and UnicodeError. Even beginners can find the code recipes on StackOverflow(SO) for fixing them. Nevertheless, there are generic exceptions, mostly the result of typos and careless mistakes during a deadline rush. Especially when a lot of the details in the error message pertain to your application code, googling these errors can be misleading due to the wide variability of possible causes.&lt;/p&gt;
+&lt;p&gt;The remaining paragraphs will provide you with an overview and explanation of some common types of errors. The above-described cracking method can better solve these types of errors. In this way, you’ll be able to save a great deal of time and effort spent reading posts about other SO users’ errors. Besides, you will also become more proficient at debugging yourself through this process, which will teach you more about the Python language.&lt;/p&gt;
+&lt;p&gt;SyntaxError
+Raised when the parser encounters a syntax error. — Python Official Docs&lt;/p&gt;
+&lt;p&gt;A Python parser cannot recognize the structure or sequence of tokens in a running program, which leads to syntax errors. Most often, this is due to missing or unnecessary characters, including commas, parentheses, etc.&lt;/p&gt;
+&lt;p&gt;Python Code Snippet of Raised SyntaxError Exceptions
+In this example of SyntaxError, the occurred errors’ type and message are clear indicators that the code statement is syntactically invalid. Nevertheless, the difficulty of fault localization differs between them.&lt;/p&gt;
+&lt;p&gt;First Cell: We look at the traceback to determine the cause (Here, there is just a single line of code 1). A small vertical arrow points out the exact location of the syntax error on this faulty line. So, you’ve spotted it. Just get rid of the comma in-between the for loops.
+Second Cell: It turns out that the code line (11) is not the faulty one, and the SyntaxErroris due to the missing parentheses in line (9). The parser, however, incorrectly identifies this location since it expects a closing parenthese there (rather than a new code statement), but it didn’t find it.
+Therefore, we should analyze reversely the code by starting at the indicated location of the SyntaxError. By not following this bottom-up debugging technique, you may find yourself searching StackOverflow for syntax errors in contexts that have similar keywords, names, and libraries to your own.&lt;/p&gt;
+&lt;p&gt;NameError
+Raised when a local or global name is not found. — Python Official Docs&lt;/p&gt;
+&lt;p&gt;Basically, developers get this error when they try to use a non-existent variable or function.&lt;/p&gt;
+&lt;p&gt;This is often caused by a misspelling in the name, such as the above example, where we spelled incorrectly the name of the function from the previous code snippet. This can happen when the developer forgets to import or declare the variable/function in the first place, as well as when he fails to run the cell that contains the underlying declaration.&lt;/p&gt;
+&lt;p&gt;IndexError
+Raised when a sequence subscript is out of range. — Python Official Docs&lt;/p&gt;
+&lt;p&gt;Simply, developers face this error when they try to access a non-existent cell in a sequence such as list, array, or dataframe.&lt;/p&gt;
+&lt;p&gt;As can be seen in the provided code example, the message associated to IndexErrorwould include useful details to remove the fault. Generally, the message reports the requested index and the size of the axis to which the cell belongs.&lt;/p&gt;
+&lt;p&gt;KeyError
+Raised when a mapping key is not found in the set of existing keys. — Python Official Docs&lt;/p&gt;
+&lt;p&gt;Primarily, developers encounter this error when they try to access a non-existent key in a dictionary or dataframe.&lt;/p&gt;
+&lt;p&gt;It seems simple, but we sometimes generate these keys automatically, and the names of the keys have little meaning for us. You can see an example of this error above, where I put the wrong condition in the while loop i &amp;lt;= ninstead of i &amp;lt; n.&lt;/p&gt;
+&lt;p&gt;AttributeError
+Raised when an attribute reference or assignment fails. — Python Official Docs&lt;/p&gt;
+&lt;p&gt;Developers get this error whenever they try to access a non-existent variable/function from an imported object or module.&lt;/p&gt;
+&lt;p&gt;The above example of AttributeError illustrates the mis-use of scikit-learn Model object by calling accuracy instead of score . Once you face this type of error, you should re-verify the existence of the attribute in the imported object or module by inspecting the code files or the underlying library’s official docs.&lt;/p&gt;
+&lt;p&gt;TypeError
+Raised when an operation or function is applied to an object of inappropriate type. — Python Official Docs&lt;/p&gt;
+&lt;p&gt;As indicated by its name, this error is mainly related to an incorrect type of variable/attribute/object. Nonetheless, it is often tricky to localize it.&lt;/p&gt;
+&lt;p&gt;First Cell: The error type and the message accompanying it are extremely clear. As I inferred a column based on other columns in a Pandas data frame, the resulting traceback includes a lot of sub-modules from the Pandas library. Consequently, it is wise to ignore all the Pandas’ inner functions and focus on the parts and lines of code we actually wrote. For instance, the code line, df[&amp;lsquo;Savings&amp;rsquo;]=df[&amp;lsquo;Income&amp;rsquo;]-df[&amp;lsquo;Expenses&amp;rsquo;], where I inferred the ‘Savings’ column, is flagged within the traceback. To find the root cause, a simple check of the columns’ types would suffice.
+Bonus Tip: When examining the traceback (Step 3), pay attention primarily to the function calls in your written modules.&lt;/p&gt;
+&lt;p&gt;Second Cell: Type errors that are less straightforward often appear in function or constructor calls. In this example, I made a misspelling error in an argument for the Model’s constructor. As a result, a traceback would be of little use to us. It would just help us identify the underlying function or object. The mistaken argument keyword would show up in the error message. Therefore, we need to look at the documentation or the source code of the function to find the error and fix it.
+Third Cell: Here we call concatenate on two NumPy arrays, but concatenate expects a list of arrays to be concatenated, not two separate arguments. This is a common fault, as Python libraries might declare functions that deal with entries of the same variable’s type, using either multiple arguments (i.e., def func(**args)) or an argument of Iterabletype (i.e., def func(args:Iterable)). Clearly, the error message does not say much because the interpreter fails to convert the variables into the arguments types. Hence, it is necessary to verify the official library documentation or the source code of the underlying function to spot the root cause.
+ValueError
+Raised when an operation or function receives an argument that has the right type but an inappropriate value. — Python Official Docs&lt;/p&gt;
+&lt;p&gt;Last and not least, ValueErroris caused by an invalid value of an argument, which prevents the function from fulfilling the task.&lt;/p&gt;
+&lt;p&gt;The above code example shows misuse of a scikit-learn Model fit()function using inputs and targets with unmatched size. As the Model fit()is designed to handle such errors, the developer has included this exception to alert the users to the problem. Otherwise, some computations would fail with less obvious exceptions or the program remains silent and the results would be incorrect. In order to demonstrate the developer’s anticipation of ValueError, let us fix the first code example in this post by raising a ValueErrorthat appears when the user assigns the argument b to zero. The below snippet of code shows the required changes.&lt;/p&gt;
+&lt;p&gt;Final Words
+I’m glad you made it all the way to the end. It would have been nice if I could finally have convinced you to stop copy-pasting the whole exception into Google and Stackoverflow search bars without any prior debugging in hopes of finding a ready-to-use fix. With practice, you will become able to quickly locate these bugs and fix them during the coding process, without having to go through other people’s shared errors.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Machine Learning Is Actually Altering Software Eng. Practices</title>
+      <link></link>
+      <pubDate>Thu, 23 Dec 2021 00:00:00 +0000</pubDate>
+      <guid></guid>
+      <description>&lt;p&gt;Like many ML practitioners with an SE background, I’ve observed on several occasions that the development process for ML-enabled software differs profoundly from that for conventional apps. Upon reading the empirical study[1] recently published by a group of SE researchers, I came up with a clear explanation of my early impressions. Indeed, this fascinating research work has explored thoroughly how machine learning impacts software development practices such as design and testing, as well as characteristics of work like skill variety and job complexity.&lt;/p&gt;
+&lt;p&gt;Mix of qualitative and quantitative analyses at a large scale&lt;/p&gt;
+&lt;p&gt;Empirical Study Methodology
+To begin, I will summarize the above-illustrated methodology applied by Wan et al.[1] in order to derive the statistically-confirmed statements of differences between ML and non-ML software engineering practices.&lt;/p&gt;
+&lt;p&gt;In the first round of interviews, 14 senior software professionals with experience in both ML and non-ML development were contacted to assemble the list of candidate statements of differences. Following open card sorting, a total of 80 statements were retained for the next steps.
+During the second round, three focus groups discuss the retained list, reducing it to 31 statements to be included in the survey.
+In the last round of the survey, hundreds of participants from various backgrounds responded to each statement on a five-point Likert scale, ranging from totally disagree to strongly agree. This will enable the comparison of the Likert distributions obtained from different groups of respondents for each statement.
+In fact, Wan et al.[1] recruited 342 respondents across 26 countries on 4 continents, both from ML and non-ML populations, to increase the credibility of their inferences.&lt;/p&gt;
+&lt;p&gt;Based on the original survey results, 11 significant differences were found between ML and non-ML development. In order to make this article lightweight and easy to read, I will comment only on 3+3 statistically-confirmed statements about the differences between ML and non-ML software when it comes to development practices and characteristics of work.&lt;/p&gt;
+&lt;p&gt;Development Practices: Software Requirements
+“Collecting requirements involve a large number of preliminary experiments.”&lt;/p&gt;
+&lt;p&gt;To define the software requirements, ML developers agree that many experiments are needed. This refers to the stage where they try out some machine learning algorithms on samples of data in order to get preliminary insights. While the type of the data and the learning task often lead to certain models, several architectures and hyperparameters remain open to experimental evaluation.&lt;/p&gt;
+&lt;p&gt;Development Practices: Software Design
+“Detailed design is time-consuming and conducted in an iterative way.”&lt;/p&gt;
+&lt;p&gt;In terms of software design, ML practitioners consider the detailed design of ML systems is often the result of time-consuming, intensively-iterative processes. According to the previous statement, the feedback provided by the on-going experiments on the data would continuously influence the design decisions of future improvements.&lt;/p&gt;
+&lt;p&gt;Development Practices: Software Testing
+“Collecting testing dataset is labor intensive.”&lt;/p&gt;
+&lt;p&gt;Last but not least, ML developers agree that collecting test data requires a lot of effort. This can be explained by the fact that most of the available data would influence the design and development of the ML system, then, a subset of held-out data would be used for testing. Even so, ML developers often keep only a relatively small fraction of the initial dataset and a further collection is necessary to assess the ML system’s different behaviors. A recent Google researchers work[2] clearly describes the underspecification pipeline problem, which is the most common issue with insignificant test datasets. In a nutshell, DL practitioners come up with many models that yield equivalent performances against the test datasets but would behave differently under deployment settings. Thus, having reliable test datasets is a must-have to separate effective models from ineffective ones before releasing the ML software system.&lt;/p&gt;
+&lt;p&gt;Work Characteristics: Skill Variety
+“Developing my software requires knowledge in math, information theory, and statistics.”&lt;/p&gt;
+&lt;p&gt;In order to implement and integrate machine learning algorithms into software systems, developers must understand the mathematics inherent in the ML models. The latter are statistical learning algorithms that employ stochastic and iterative optimization processes. Coursera has an interesting course provided by Imperial College London on the maths behind ML.&lt;/p&gt;
+&lt;p&gt;Work Characteristics: Task Identity
+“It is easy to make an accurate plan for development tasks of my software.”&lt;/p&gt;
+&lt;p&gt;ML developers disagree about having an accurate plan for development tasks. The confusion comes from the fact that at a high level we know the phases are: collect and preprocess data, feature engineering, construct ML models, train them, tune their hyperparameters, compare their performances against held-out test data, etc. Despite this, it is difficult to create a task plan at the low level, since usually the next task will be determined based on the results of the previous task.&lt;/p&gt;
+&lt;p&gt;Work Characteristics: Interactions outside the Organisation
+“Developing my software requires frequent communications with the clients.”&lt;/p&gt;
+&lt;p&gt;There is a non-consenting answer from ML developers regarding the necessity of frequent communication with customers. As opposed to non-ML developers who strongly agree. A possible explanation for this can be found in the inherent complexity of the ML algorithms, as well as the difficulty of interpreting both of their successes and failures. ML practitioners typically handle these challenges by pushing back customer communication until being able to provide decent explanations and talk about real-world results from pre-production testing.&lt;/p&gt;
+&lt;p&gt;Overall Visual Summary&lt;/p&gt;
+&lt;p&gt;Visual Summary of ML-induced changes in both of SE development practices and work characteristics
+You have made it all the way to the end. I would guess you are either an ML practitioner or software developer. Let us know if you agree or disagree with the statements of differences. Thanks :)&lt;/p&gt;
+&lt;p&gt;References
+[1] Wan, Z., Xia, X., Lo, D., &amp;amp; Murphy, G. C. , How does machine learning change software development practices?(2019), IEEE Transactions on Software Engineering.&lt;/p&gt;
+&lt;p&gt;[2] D’AMOUR, Alexander, HELLER, Katherine, MOLDOVAN, Dan, et al. Underspecification presents challenges for credibility in modern machine learning. (2020), arXiv preprint arXiv:2011.03395.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

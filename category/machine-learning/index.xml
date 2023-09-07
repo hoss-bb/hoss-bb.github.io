@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Machine Learning | Houssem Ben Braiek</title>
+    <link>https://hoss-bb.github.io/category/machine-learning/</link>
+      <atom:link href="https://hoss-bb.github.io/category/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <description>Machine Learning</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 05 Jan 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://hoss-bb.github.io/media/icon_hu46dff4dbf79dc03e46b38f18d11d3be0_4210_512x512_fill_lanczos_center_3.png</url>
+      <title>Machine Learning</title>
+      <link>https://hoss-bb.github.io/category/machine-learning/</link>
+    </image>
+    
+    <item>
+      <title>How to Make Systematic Choices of Machine Learning Models</title>
+      <link></link>
+      <pubDate>Wed, 05 Jan 2022 00:00:00 +0000</pubDate>
+      <guid></guid>
+      <description>&lt;p&gt;The democratization of Machine Learning is driven by major tech firms and prestigious AI labs that have released powerful and ready-to-use ML libraries. With so many possible ML models available in this democratic ML age, it opens up the perennial question of ‘Which ML model to choose for a new statistical learning problem?’. But lucky you! In this post, I would discuss five simple and effective criteria that you can use to narrow down significantly your choices of ML models and avoid testing unsuitable models.&lt;/p&gt;
+&lt;p&gt;At the beginning, I would like to define two classes of ML models which we refer to in this post: (i) Parametric models, which summarize data with a finite set of parameters independent of the number of training data points. In other words, they try to fit the data into known-form mapping functions. For instance, a linear regression model assumes that the labeled data, D=(X,y), could be mapped by a linear function, y=f(X) , where f(X)=W.X+b; (ii) Non-parametric models, which make no assumptions about the form of the function mapping the data. For example, KNN attempts to predict the outcome for an unseen data point by combining the labels of its ‘k’ nearest data points. You can read more about both classes in [1].&lt;/p&gt;
+&lt;p&gt;Criteria #1: Look at your data structure
+Data structure is the first criterion for selecting ML models. In fact, raw data, such as images, audio files, and pure text, are considered unstructured inputs. These types of data have been successfully processed by deep neural networks (DNN). I plan to address the issue of choosing the DNN architecture in a separate blog post. For now, I would recommend starting out with CNN[2], RNN[3], and Transformers[4] in the case of images, audio, and text. You may find the TDS posts [2, 3, 4] helpful to get started with these DNN architectures. Alternatively, tabular information that is derived from conventional databases and excel sheets is known as structured data. Hence, the next criteria would be the selection of ML models for structured data.&lt;/p&gt;
+&lt;p&gt;Criteria #2: Measure the size of your data
+The second criterion relies on the size of data you have available.&lt;/p&gt;
+&lt;p&gt;In fact, there are ML models that are adapted to large amounts of data. In Scikit-learn, SGDClassifier and SGDRegressor represent the estimators that use SGD to find the best parameters of the selected parametric model. SGD stands for Stochastic Gradient Descent. It is a variant of gradient descent that estimates the gradient on a subset of data points (called a batch of data) at every iteration instead of using the full dataset. Hence, this gives birth to a new term, epoch, which means the number of iterations needed for the SGD to make a single pass over all the dataset. For a more detailed explanation of SGD, we refer to this post [5] on TDS. In case the data contains nonlinearities, it becomes necessary to implement feedforward neural networks using the Keras or Pytorch libraries. To avoid overfitting your data, it is crucial to design neural networks with a depth that is appropriate for the complexity of the problem, rather than using deep ones from the start.&lt;/p&gt;
+&lt;p&gt;In contrast, other ML models are not efficient at all when dealing with large training datasets. An example of this is the KNN algorithm. Since it retains the entire training dataset in memory, KNN would be unable to manage large numbers of instances and inference would be extremely slow due to the compute-intensive distances to estimate for each prediction. As a rule of thumb, we can use 100k data points, as stated in Scikit-learn official docs, in order to distinguish between large and small datasets.&lt;/p&gt;
+&lt;p&gt;Criteria #3: Test the normality of your data
+Normality of the data means the tendency of data towards being normally distributed. I refer to these posts, [6] and [7], that introduce, respectively the normal distribution and conventional normality tests. Here, we are interested in separating the set of ML models with respect to their assumptions on data normality. Indeed, linear models including linear regressors and logistic regression classifiers, explicitly assume that the input data satisfy a bivariate or multivariate normal distribution. On the other side, decision tree and its popular ensemble-based derivative, random forest, work very well in the case of non-normally distributed data. For a broader scope of ML models, it is important to know that the parametric models actually work very well on data that follows foreknown distributions. Otherwise, we might, then, leverage non-parametric alternatives. Normality, as a common situation, is related to gaussian distribution trends in the data.&lt;/p&gt;
+&lt;p&gt;Criteria #4: Examine the expected variance of your features’ importance
+Regarding normally-distributed data, we should consider further the expected variance of features’ importance to determine which parametric model to use. In fact, ML models with L1 penalization[8] on their coefficients will tend to eliminate the irrelevant features and converge to a simpler model whenever possible. The importance of features could be derived from exploratory statistical analyses or through discussions with domain experts.&lt;/p&gt;
+&lt;p&gt;Criteria #5: Verify the proportion of categorical features
+When dealing with non-normal data, we should check the proportion of categorical features compared to the continuous ones. It is true that we can discretize[9] the continuous features, or perform one-hot encoding[10] on categorical features. However, we are interested here in the percentage of authentic categorical features, which are more natural and representative if they are maintained as categories. Therefore, the strategy is simple. Decision tree and random forest work with categorical features that would be directly used to separate the remaining data instances into branches of different category values. However, the remaining models involving distances or kernel functions are better in place to handle continuous real-valued features.&lt;/p&gt;
+&lt;p&gt;Simple Decision Tree Diagram for ML Models
+So there you have it, the above decision tree diagram summarizes the model selection criteria. The diagram is short and very practical. It is good to keep it in mind or to take a quick look at it when choosing your next ML model.&lt;/p&gt;
+&lt;p&gt;Final Words
+Having made it to the end, you deserve a couple of bonus tips:&lt;/p&gt;
+&lt;p&gt;Bonus Tip 1: Start with the model you’re already familiar with in each branch.&lt;/p&gt;
+&lt;p&gt;You would be more willing to train and tune it. By mastering the ML model, you determine if you have done any mistakes or bugs in previous steps through the abnormal behaviors you might have. After you’re done with it, you can move on to more complex ML models that you’re still learning.&lt;/p&gt;
+&lt;p&gt;Bonus Tip 2: Dedicate enough time and effort to the preprocessing of data.&lt;/p&gt;
+&lt;p&gt;It is important to keep in mind: garbage in, garbage out. The recipe to choose the ML model was given to you, but like any recipe, its added value would diminish substantially with low-quality ingredients. Believe me, any grilling recipe you follow won’t make a round bottom steak taste like a tenderloin steak AAA Beef. Hence, ensure you have high-quality inputs in the entrance for best results.&lt;/p&gt;
+&lt;p&gt;References
+[1] Jason Brownlee, Parametric and Nonparametric Machine Learning Algorithms (2016), Machine Learning Mastery&lt;/p&gt;
+&lt;p&gt;[2] Md Shahid, Convolutional Neural Network (2019), TDS&lt;/p&gt;
+&lt;p&gt;[3] Papia Nandi, Recurrent Neural Nets for Audio Classification (2021), TDS&lt;/p&gt;
+&lt;p&gt;[4] Eduardo Muñoz, Attention is all you need: Discovering the Transformer paper (2020), TDS&lt;/p&gt;
+&lt;p&gt;[5] Aishwarya V Srinivasan, Stochastic Gradient Descent — Clearly Explained (2019), TDS&lt;/p&gt;
+&lt;p&gt;[6] Harshdeep Singh, Normality? How do we check that? (2021), TDS&lt;/p&gt;
+&lt;p&gt;[7] Farhad Malik, Ever Wondered Why Normal Distribution Is So Important?(2019), Medium&lt;/p&gt;
+&lt;p&gt;[8] Soner Yıldırım, L1 and L2 Regularization — Explained (2020), TDS&lt;/p&gt;
+&lt;p&gt;[9] Dinesh Yadav, Categorical encoding using Label-Encoding and One-Hot-Encoder (2019), TDS&lt;/p&gt;
+&lt;p&gt;[10] Rohan Gupta, An Introduction to Discretization Techniques for Data Scientists (2019), TDS&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
