@@ -1,0 +1,1474 @@
+<!DOCTYPE html>
+<!-- This site was created with Hugo Blox. https://hugoblox.com -->
+<!-- Last Published: July 20, 2024 --><html lang="en-us" >
+
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Hugo Blox Builder 5.9.7" />
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+
+  
+  
+  
+    
+      
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media="print" onload="this.media='all'">
+    
+  
+
+  
+  
+
+  
+  
+
+  
+
+  <link rel="stylesheet" href="/css/vendor-bundle.min.26c458e6907dc03073573976b7f4044e.css" media="print" onload="this.media='all'">
+
+  
+  
+  
+    
+    
+
+    
+    
+    
+    
+      
+      
+    
+    
+    
+
+    
+    
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+        
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.e7df2040558ed14dd42d4e15685c082b.css" />
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+    
+    
+    <link rel="stylesheet" href="/css/libs/chroma/github-light.min.css" title="hl-light" media="print" onload="this.media='all'" >
+    <link rel="stylesheet" href="/css/libs/chroma/dracula.min.css" title="hl-dark" media="print" onload="this.media='all'" disabled>
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+
+  <meta name="author" content="Houssem Ben Braiek" />
+
+
+
+
+
+  
+
+<meta name="description" content="Remote sensing has proven its utility in many critical domains, such as medicine, military, and ecology. Recently, we have been witnessing a surge in the adoption of deep learning (DL) techniques by the remote sensing community. DL-based classifiers, such as convolutional neural networks (CNNs), have been reported to achieve impressive predictive performances reaching 99% of accuracy when applied to hyperspectral images (HSIs), a high-dimensional type of remote sensing data. However, these deep learners are known to be highly sensitive to even slight perturbations of their high-dimensional raw inputs. In real-world contexts, concerns can be raised about how robust they really are against corner-case scenarios. When HSI classifiers are applied in safety–critical applications, ensuring an adequate level of robustness is crucial to prevent unexpected system behaviors. Yet, there are few studies dealing with their robustness, nor are RGB-testing methods able to cover the HSI-specific challenges. This led us to propose a systematic testing method to assess the robustness of the CNNs trained to classify HSIs. First, we elaborate domain-specific metamorphic transformations that simulate naturally-occurring distortions of remote sensing HSIs. Then, we leverage metaheuristic search algorithms to optimize the fitness of synthetically-distorted inputs to stress the weaknesses of the on-testing CNN, while remaining in compliance with domain expert requirements, in order to preserve the semantic of the generated inputs. Relying on our metamorphic testing method, we assess the robustness of established and novel CNNs for HSI classification, and demonstrate their failure, on average, in 25% of the produced test cases. Furthermore, we fine-tuned the tested CNNs on training data augmented with these failure-revealing metamorphic transformations. Results show that the fined-tuning successfully fixed at least 90% of the CNN weaknesses, with less than 1% of degradation in the original predictive performance, outperforming the common iterative gradient-based adversarial attack, namely, Projected Gradient Descent (PGD)." />
+
+
+
+<link rel="alternate" hreflang="en-us" href="https://houssembenbraiek.me/publication/rsmt/" />
+<link rel="canonical" href="https://houssembenbraiek.me/publication/rsmt/" />
+
+
+
+  <link rel="manifest" href="/manifest.webmanifest" />
+
+
+
+<link rel="icon" type="image/png" href="/media/icon_hu46dff4dbf79dc03e46b38f18d11d3be0_4210_32x32_fill_lanczos_center_3.png" />
+<link rel="apple-touch-icon" type="image/png" href="/media/icon_hu46dff4dbf79dc03e46b38f18d11d3be0_4210_180x180_fill_lanczos_center_3.png" />
+
+<meta name="theme-color" content="#3f51b5" />
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+<meta property="twitter:card" content="summary" />
+<meta property="twitter:image" content="https://houssembenbraiek.me/media/icon_hu46dff4dbf79dc03e46b38f18d11d3be0_4210_512x512_fill_lanczos_center_3.png" />
+
+
+
+  
+
+<meta property="og:type" content="article" />
+<meta property="og:site_name" content="Houssem Ben Braiek" />
+<meta property="og:url" content="https://houssembenbraiek.me/publication/rsmt/" />
+<meta property="og:title" content="Robustness assessment of hyperspectral image CNNs using metamorphic testing | Houssem Ben Braiek" />
+<meta property="og:description" content="Remote sensing has proven its utility in many critical domains, such as medicine, military, and ecology. Recently, we have been witnessing a surge in the adoption of deep learning (DL) techniques by the remote sensing community. DL-based classifiers, such as convolutional neural networks (CNNs), have been reported to achieve impressive predictive performances reaching 99% of accuracy when applied to hyperspectral images (HSIs), a high-dimensional type of remote sensing data. However, these deep learners are known to be highly sensitive to even slight perturbations of their high-dimensional raw inputs. In real-world contexts, concerns can be raised about how robust they really are against corner-case scenarios. When HSI classifiers are applied in safety–critical applications, ensuring an adequate level of robustness is crucial to prevent unexpected system behaviors. Yet, there are few studies dealing with their robustness, nor are RGB-testing methods able to cover the HSI-specific challenges. This led us to propose a systematic testing method to assess the robustness of the CNNs trained to classify HSIs. First, we elaborate domain-specific metamorphic transformations that simulate naturally-occurring distortions of remote sensing HSIs. Then, we leverage metaheuristic search algorithms to optimize the fitness of synthetically-distorted inputs to stress the weaknesses of the on-testing CNN, while remaining in compliance with domain expert requirements, in order to preserve the semantic of the generated inputs. Relying on our metamorphic testing method, we assess the robustness of established and novel CNNs for HSI classification, and demonstrate their failure, on average, in 25% of the produced test cases. Furthermore, we fine-tuned the tested CNNs on training data augmented with these failure-revealing metamorphic transformations. Results show that the fined-tuning successfully fixed at least 90% of the CNN weaknesses, with less than 1% of degradation in the original predictive performance, outperforming the common iterative gradient-based adversarial attack, namely, Projected Gradient Descent (PGD)." /><meta property="og:image" content="https://houssembenbraiek.me/media/icon_hu46dff4dbf79dc03e46b38f18d11d3be0_4210_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
+
+  
+    <meta
+      property="article:published_time"
+      content="2023-10-01T00:00:00&#43;00:00"
+    />
+  
+  
+    <meta property="article:modified_time" content="2023-10-01T00:00:00&#43;00:00">
+  
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://houssembenbraiek.me/publication/rsmt/"
+  },
+  "headline": "Robustness assessment of hyperspectral image CNNs using metamorphic testing",
+  
+  "datePublished": "2023-10-01T00:00:00Z",
+  "dateModified": "2023-10-01T00:00:00Z",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Rached Bouchoucha"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Houssem Ben Braiek",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://houssembenbraiek.me/media/icon_hu46dff4dbf79dc03e46b38f18d11d3be0_4210_192x192_fill_lanczos_center_3.png"
+    }
+  },
+  "description": "Remote sensing has proven its utility in many critical domains, such as medicine, military, and ecology. Recently, we have been witnessing a surge in the adoption of deep learning (DL) techniques by the remote sensing community. DL-based classifiers, such as convolutional neural networks (CNNs), have been reported to achieve impressive predictive performances reaching 99% of accuracy when applied to hyperspectral images (HSIs), a high-dimensional type of remote sensing data. However, these deep learners are known to be highly sensitive to even slight perturbations of their high-dimensional raw inputs. In real-world contexts, concerns can be raised about how robust they really are against corner-case scenarios. When HSI classifiers are applied in safety–critical applications, ensuring an adequate level of robustness is crucial to prevent unexpected system behaviors. Yet, there are few studies dealing with their robustness, nor are RGB-testing methods able to cover the HSI-specific challenges. This led us to propose a systematic testing method to assess the robustness of the CNNs trained to classify HSIs. First, we elaborate domain-specific metamorphic transformations that simulate naturally-occurring distortions of remote sensing HSIs. Then, we leverage metaheuristic search algorithms to optimize the fitness of synthetically-distorted inputs to stress the weaknesses of the on-testing CNN, while remaining in compliance with domain expert requirements, in order to preserve the semantic of the generated inputs. Relying on our metamorphic testing method, we assess the robustness of established and novel CNNs for HSI classification, and demonstrate their failure, on average, in 25% of the produced test cases. Furthermore, we fine-tuned the tested CNNs on training data augmented with these failure-revealing metamorphic transformations. Results show that the fined-tuning successfully fixed at least 90% of the CNN weaknesses, with less than 1% of degradation in the original predictive performance, outperforming the common iterative gradient-based adversarial attack, namely, Projected Gradient Descent (PGD)."
+}
+</script>
+
+  
+
+  
+
+
+
+
+  
+  
+  
+
+  
+  
+
+  
+
+
+  
+  <title>Robustness assessment of hyperspectral image CNNs using metamorphic testing | Houssem Ben Braiek</title>
+
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="ba531528a72575f9b72fb078886908b3" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.0c2a90bc12bab3dae98f86ebf684d69d.js"></script>
+
+  
+
+
+
+
+  <div class="page-header header--fixed">
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+<header>
+  <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+    <div class="container-xl">
+
+      
+      <div class="d-none d-lg-inline-flex">
+        <a class="navbar-brand" href="/">Houssem Ben Braiek</a>
+      </div>
+      
+
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+      <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+      
+      <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+        <a class="navbar-brand" href="/">Houssem Ben Braiek</a>
+      </div>
+      
+
+      
+      
+      <div class="navbar-collapse main-menu-item collapse justify-content-center" id="navbar-content">
+
+        
+        <ul class="navbar-nav d-md-inline-flex">
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#about"><span>Home</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#experience"><span>Experience</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#certificates"><span>Certificates</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#publications"><span>Publications</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#teaching"><span>Teaching</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#talks"><span>Talks</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#participations"><span>Participation</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#posts"><span>Posts</span></a>
+          </li>
+
+          
+          
+
+        
+
+          
+        </ul>
+      </div>
+
+      <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+        
+        
+          
+        
+
+        
+        
+        
+
+        
+        
+        
+        <li class="nav-item dropdown theme-dropdown">
+          <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
+            <i class="fas fa-moon" aria-hidden="true"></i>
+          </a>
+          <div class="dropdown-menu">
+            <a href="#" class="dropdown-item js-set-theme-light">
+              <span>Light</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-dark">
+              <span>Dark</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-auto">
+              <span>Automatic</span>
+            </a>
+          </div>
+        </li>
+        
+
+        
+        
+
+      </ul>
+
+    </div>
+  </nav>
+</header>
+
+
+  </div>
+
+  <div class="page-body">
+    
+    
+    
+
+    
+
+
+  
+    
+    
+  
+
+
+<div class="pub">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>Robustness assessment of hyperspectral image CNNs using metamorphic testing</h1>
+
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span >
+      Rached Bouchoucha</span>, <span class="author-highlighted">
+      Houssem Ben Braiek</span>, <span >
+      Foutse Khomh</span>, <span >
+      Sonia Bouzidi</span>, <span >
+      Rania Zaatour</span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    October, 2023
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+    
+
+
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header js-cite-modal"
+        data-filename="/publication/rsmt/cite.bib">
+  Cite
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary btn-page-header" href="https://www.sciencedirect.com/science/article/abs/pii/S0950584923001350" target="_blank" rel="noopener">
+    Arxiv</a>
+
+
+</div>
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    
+    <h3>Abstract</h3>
+    <p class="pub-abstract">Remote sensing has proven its utility in many critical domains, such as medicine, military, and ecology. Recently, we have been witnessing a surge in the adoption of deep learning (DL) techniques by the remote sensing community. DL-based classifiers, such as convolutional neural networks (CNNs), have been reported to achieve impressive predictive performances reaching 99% of accuracy when applied to hyperspectral images (HSIs), a high-dimensional type of remote sensing data. However, these deep learners are known to be highly sensitive to even slight perturbations of their high-dimensional raw inputs. In real-world contexts, concerns can be raised about how robust they really are against corner-case scenarios. When HSI classifiers are applied in safety–critical applications, ensuring an adequate level of robustness is crucial to prevent unexpected system behaviors. Yet, there are few studies dealing with their robustness, nor are RGB-testing methods able to cover the HSI-specific challenges. This led us to propose a systematic testing method to assess the robustness of the CNNs trained to classify HSIs. First, we elaborate domain-specific metamorphic transformations that simulate naturally-occurring distortions of remote sensing HSIs. Then, we leverage metaheuristic search algorithms to optimize the fitness of synthetically-distorted inputs to stress the weaknesses of the on-testing CNN, while remaining in compliance with domain expert requirements, in order to preserve the semantic of the generated inputs. Relying on our metamorphic testing method, we assess the robustness of established and novel CNNs for HSI classification, and demonstrate their failure, on average, in 25% of the produced test cases. Furthermore, we fine-tuned the tested CNNs on training data augmented with these failure-revealing metamorphic transformations. Results show that the fined-tuning successfully fixed at least 90% of the CNN weaknesses, with less than 1% of degradation in the original predictive performance, outperforming the common iterative gradient-based adversarial attack, namely, Projected Gradient Descent (PGD).</p>
+    
+
+    
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Type</div>
+          <div class="col-12 col-md-9">
+            <a href="/publication/#2">
+              2
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
+          <div class="col-12 col-md-9">In <em>Information and Software Technology</em></div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    <div class="space-below"></div>
+
+    <div class="article-style"></div>
+
+    
+
+
+
+
+
+
+
+<div class="share-box">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fhoussembenbraiek.me%2Fpublication%2Frsmt%2F&amp;text=Robustness&#43;assessment&#43;of&#43;hyperspectral&#43;image&#43;CNNs&#43;using&#43;metamorphic&#43;testing" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fhoussembenbraiek.me%2Fpublication%2Frsmt%2F&amp;t=Robustness&#43;assessment&#43;of&#43;hyperspectral&#43;image&#43;CNNs&#43;using&#43;metamorphic&#43;testing" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a href="mailto:?subject=Robustness%20assessment%20of%20hyperspectral%20image%20CNNs%20using%20metamorphic%20testing&amp;body=https%3A%2F%2Fhoussembenbraiek.me%2Fpublication%2Frsmt%2F" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fhoussembenbraiek.me%2Fpublication%2Frsmt%2F&amp;title=Robustness&#43;assessment&#43;of&#43;hyperspectral&#43;image&#43;CNNs&#43;using&#43;metamorphic&#43;testing" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=Robustness&#43;assessment&#43;of&#43;hyperspectral&#43;image&#43;CNNs&#43;using&#43;metamorphic&#43;testing%20https%3A%2F%2Fhoussembenbraiek.me%2Fpublication%2Frsmt%2F" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https%3A%2F%2Fhoussembenbraiek.me%2Fpublication%2Frsmt%2F&amp;title=Robustness&#43;assessment&#43;of&#43;hyperspectral&#43;image&#43;CNNs&#43;using&#43;metamorphic&#43;testing" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+
+
+
+
+  
+    
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <a href="https://houssembenbraiek.me/"><img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_hu0f48eb83a58bd25660a0e2936fc8e72f_144970_270x270_fill_q75_lanczos_center.jpeg" alt="Houssem Ben Braiek"></a>
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="https://houssembenbraiek.me/">Houssem Ben Braiek</a></h5>
+      <h6 class="card-subtitle">Ph.D., M.Sc., Eng.</h6>
+      <p class="card-text">I am ML Tech Lead with a background in software engineering, holding M.Sc. and Ph.D. degrees from Polytechnique Montreal with distinction. My role involves supervising and guiding the development of machine learning solutions for intelligent automation systems. As an active SEMLA member, I contribute to research projects in trustworthy AI, teach advanced technical courses in SE4ML and MLOps, and organize workshops.</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+    <li>
+      <a href="mailto:houssem.benbraiek@gmail.com" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://medium.com/@houssem.benbraiek" target="_blank" rel="noopener">
+        <i class="fab fa-medium"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.com/citations?user=5mXZyGoAAAAJ&amp;hl=en" target="_blank" rel="noopener">
+        <i class="fas fa-graduation-cap"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/hoss-bb" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+  
+    
+
+
+
+
+  
+    
+
+
+
+
+  
+    
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+</div>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <p class="powered-by copyright-license-text">
+    © 2024 Houssem Ben Braiek
+  </p>
+  
+
+
+
+
+
+  
+</footer>
+
+    </div>
+    
+  </div>
+
+  
+
+
+<script src="/js/vendor-bundle.min.391d344a129df56f7ad674c2c2ed04e8.js"></script>
+
+
+
+
+  
+
+  
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script id="page-data" type="application/json">{"use_headroom":true}</script>
+
+
+  <script src="/js/wowchemy-headroom.db4755770454eb63685f8de785c0a172.js" type="module"></script>
+
+
+
+
+
+
+
+
+
+
+<script src="/en/js/wowchemy.min.57af632a84a05835124f04e4f75dcd29.js"></script>
+
+
+
+
+
+
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        
+        <pre><code></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <script src="/js/wowchemy-publication.9c0e895144aef5a693008b5c5d450147.js" type="module"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

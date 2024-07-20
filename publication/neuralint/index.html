@@ -1,4 +1,6 @@
-<!DOCTYPE html><html lang="en-us" >
+<!DOCTYPE html>
+<!-- This site was created with Hugo Blox. https://hugoblox.com -->
+<!-- Last Published: July 20, 2024 --><html lang="en-us" >
 
 
 <head>
@@ -8,7 +10,7 @@
   
   
   
-    <meta name="generator" content="Wowchemy 5.6.0 for Hugo" />
+    <meta name="generator" content="Hugo Blox Builder 5.9.7" />
   
 
   
@@ -62,39 +64,13 @@
 
   
   
-  
-  
-  
-    
-    
-    
-  
-  
-
-  <meta name="author" content="Houssem Ben Braiek" />
-
-  
-  
-  
-    
-  
-  <meta name="description" content="Nowadays, we are witnessing an increasing demand in both corporates and academia for exploiting Deep Learning (DL) to solve complex real-world problems. A DL program encodes the network structure of a desirable DL model and the process by which the model learns from the training dataset. Like any software, a DL program can be faulty, which implies substantial challenges of software quality assurance, especially in safety-critical domains. It is therefore crucial to equip DL development teams with efficient fault detection techniques and tools. In this article, we propose NeuraLint, a model-based fault detection approach for DL programs, using meta-modeling and graph transformations. First, we design a meta-model for DL programs that includes their base skeleton and fundamental properties. Then, we construct a graph-based verification process that covers 23 rules defined on top of the meta-model and implemented as graph transformations to detect faults and design inefficiencies in the generated models (i.e., instances of the meta-model). First, the proposed approach is evaluated by finding faults and design inefficiencies in 28 synthesized examples built from common problems reported in the literature. Then NeuraLint successfully finds 64 faults and design inefficiencies in 34 real-world DL programs extracted from Stack Overflow posts and GitHub repositories. The results show that NeuraLint effectively detects faults and design issues in both synthesized and real-world examples with a recall of 70.5% and a precision of 100%. Although the proposed meta-model is designed for feedforward neural networks, it can be extended to support other neural network architectures such as recurrent neural networks. Researchers can also expand our set of verification rules to cover more types of issues in DL programs." />
-
-  
-  <link rel="alternate" hreflang="en-us" href="https://hoss-bb.github.io/publication/neuralint/" />
-
-  
-  
-  
-    <meta name="theme-color" content="#3f51b5" />
-  
 
   
   
 
   
 
-  <link rel="stylesheet" href="/css/vendor-bundle.min.c7b8d9abd591ba2253ea42747e3ac3f5.css" media="print" onload="this.media='all'">
+  <link rel="stylesheet" href="/css/vendor-bundle.min.26c458e6907dc03073573976b7f4044e.css" media="print" onload="this.media='all'">
 
   
   
@@ -234,7 +210,11 @@
   
   
   
-  <link rel="stylesheet" href="/css/wowchemy.9c4c13a48bae91f201c0af6081455e43.css" />
+  <link rel="stylesheet" href="/css/wowchemy.e7df2040558ed14dd42d4e15685c082b.css" />
+
+  
+  
+  
 
   
   
@@ -254,71 +234,108 @@
 
 
 
-  
-
-
-  
-
-
-  
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   
   
   
 
+
+
+
+
+
+  <meta name="author" content="Houssem Ben Braiek" />
+
+
+
+
+
   
-  
+
+<meta name="description" content="Nowadays, we are witnessing an increasing demand in both corporates and academia for exploiting Deep Learning (DL) to solve complex real-world problems. A DL program encodes the network structure of a desirable DL model and the process by which the model learns from the training dataset. Like any software, a DL program can be faulty, which implies substantial challenges of software quality assurance, especially in safety-critical domains. It is therefore crucial to equip DL development teams with efficient fault detection techniques and tools. In this article, we propose NeuraLint, a model-based fault detection approach for DL programs, using meta-modeling and graph transformations. First, we design a meta-model for DL programs that includes their base skeleton and fundamental properties. Then, we construct a graph-based verification process that covers 23 rules defined on top of the meta-model and implemented as graph transformations to detect faults and design inefficiencies in the generated models (i.e., instances of the meta-model). First, the proposed approach is evaluated by finding faults and design inefficiencies in 28 synthesized examples built from common problems reported in the literature. Then NeuraLint successfully finds 64 faults and design inefficiencies in 34 real-world DL programs extracted from Stack Overflow posts and GitHub repositories. The results show that NeuraLint effectively detects faults and design issues in both synthesized and real-world examples with a recall of 70.5% and a precision of 100%. Although the proposed meta-model is designed for feedforward neural networks, it can be extended to support other neural network architectures such as recurrent neural networks. Researchers can also expand our set of verification rules to cover more types of issues in DL programs." />
+
+
+
+<link rel="alternate" hreflang="en-us" href="https://houssembenbraiek.me/publication/neuralint/" />
+<link rel="canonical" href="https://houssembenbraiek.me/publication/neuralint/" />
+
+
+
+  <link rel="manifest" href="/manifest.webmanifest" />
+
+
+
+<link rel="icon" type="image/png" href="/media/icon_hu46dff4dbf79dc03e46b38f18d11d3be0_4210_32x32_fill_lanczos_center_3.png" />
+<link rel="apple-touch-icon" type="image/png" href="/media/icon_hu46dff4dbf79dc03e46b38f18d11d3be0_4210_180x180_fill_lanczos_center_3.png" />
+
+<meta name="theme-color" content="#3f51b5" />
+
+
+
+
+
+
+
+
+
 
   
   
-    <link rel="manifest" href="/manifest.webmanifest" />
-  
+
+
+
+
+
+
+<meta property="twitter:card" content="summary" />
+<meta property="twitter:image" content="https://houssembenbraiek.me/media/icon_hu46dff4dbf79dc03e46b38f18d11d3be0_4210_512x512_fill_lanczos_center_3.png" />
+
+
 
   
-  <link rel="icon" type="image/png" href="/media/icon_hu46dff4dbf79dc03e46b38f18d11d3be0_4210_32x32_fill_lanczos_center_3.png" />
-  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu46dff4dbf79dc03e46b38f18d11d3be0_4210_180x180_fill_lanczos_center_3.png" />
 
-  <link rel="canonical" href="https://hoss-bb.github.io/publication/neuralint/" />
-
-  
-  
-  
-  
-  
-  
-  
-  
-    
-    
-  
-  
+<meta property="og:type" content="article" />
+<meta property="og:site_name" content="Houssem Ben Braiek" />
+<meta property="og:url" content="https://houssembenbraiek.me/publication/neuralint/" />
+<meta property="og:title" content="Automatic Fault Detection for Deep Learning Programs Using Graph Transformations | Houssem Ben Braiek" />
+<meta property="og:description" content="Nowadays, we are witnessing an increasing demand in both corporates and academia for exploiting Deep Learning (DL) to solve complex real-world problems. A DL program encodes the network structure of a desirable DL model and the process by which the model learns from the training dataset. Like any software, a DL program can be faulty, which implies substantial challenges of software quality assurance, especially in safety-critical domains. It is therefore crucial to equip DL development teams with efficient fault detection techniques and tools. In this article, we propose NeuraLint, a model-based fault detection approach for DL programs, using meta-modeling and graph transformations. First, we design a meta-model for DL programs that includes their base skeleton and fundamental properties. Then, we construct a graph-based verification process that covers 23 rules defined on top of the meta-model and implemented as graph transformations to detect faults and design inefficiencies in the generated models (i.e., instances of the meta-model). First, the proposed approach is evaluated by finding faults and design inefficiencies in 28 synthesized examples built from common problems reported in the literature. Then NeuraLint successfully finds 64 faults and design inefficiencies in 34 real-world DL programs extracted from Stack Overflow posts and GitHub repositories. The results show that NeuraLint effectively detects faults and design issues in both synthesized and real-world examples with a recall of 70.5% and a precision of 100%. Although the proposed meta-model is designed for feedforward neural networks, it can be extended to support other neural network architectures such as recurrent neural networks. Researchers can also expand our set of verification rules to cover more types of issues in DL programs." /><meta property="og:image" content="https://houssembenbraiek.me/media/icon_hu46dff4dbf79dc03e46b38f18d11d3be0_4210_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
 
   
+    <meta
+      property="article:published_time"
+      content="2021-09-28T00:00:00&#43;00:00"
+    />
   
-    
-    
   
-  <meta property="twitter:card" content="summary" />
-  
-  <meta property="og:site_name" content="Houssem Ben Braiek" />
-  <meta property="og:url" content="https://hoss-bb.github.io/publication/neuralint/" />
-  <meta property="og:title" content="Automatic Fault Detection for Deep Learning Programs Using Graph Transformations | Houssem Ben Braiek" />
-  <meta property="og:description" content="Nowadays, we are witnessing an increasing demand in both corporates and academia for exploiting Deep Learning (DL) to solve complex real-world problems. A DL program encodes the network structure of a desirable DL model and the process by which the model learns from the training dataset. Like any software, a DL program can be faulty, which implies substantial challenges of software quality assurance, especially in safety-critical domains. It is therefore crucial to equip DL development teams with efficient fault detection techniques and tools. In this article, we propose NeuraLint, a model-based fault detection approach for DL programs, using meta-modeling and graph transformations. First, we design a meta-model for DL programs that includes their base skeleton and fundamental properties. Then, we construct a graph-based verification process that covers 23 rules defined on top of the meta-model and implemented as graph transformations to detect faults and design inefficiencies in the generated models (i.e., instances of the meta-model). First, the proposed approach is evaluated by finding faults and design inefficiencies in 28 synthesized examples built from common problems reported in the literature. Then NeuraLint successfully finds 64 faults and design inefficiencies in 34 real-world DL programs extracted from Stack Overflow posts and GitHub repositories. The results show that NeuraLint effectively detects faults and design issues in both synthesized and real-world examples with a recall of 70.5% and a precision of 100%. Although the proposed meta-model is designed for feedforward neural networks, it can be extended to support other neural network architectures such as recurrent neural networks. Researchers can also expand our set of verification rules to cover more types of issues in DL programs." /><meta property="og:image" content="https://hoss-bb.github.io/media/icon_hu46dff4dbf79dc03e46b38f18d11d3be0_4210_512x512_fill_lanczos_center_3.png" />
-    <meta property="twitter:image" content="https://hoss-bb.github.io/media/icon_hu46dff4dbf79dc03e46b38f18d11d3be0_4210_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
-  
-    
-      <meta
-        property="article:published_time"
-        content="2021-09-28T00:00:00&#43;00:00"
-      />
-    
     <meta property="article:modified_time" content="2021-09-28T00:00:00&#43;00:00">
   
 
-  
+
+
+
 
 
     
@@ -337,7 +354,7 @@
   "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://hoss-bb.github.io/publication/neuralint/"
+    "@id": "https://houssembenbraiek.me/publication/neuralint/"
   },
   "headline": "Automatic Fault Detection for Deep Learning Programs Using Graph Transformations",
   
@@ -354,7 +371,7 @@
     "name": "Houssem Ben Braiek",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://hoss-bb.github.io/media/icon_hu46dff4dbf79dc03e46b38f18d11d3be0_4210_192x192_fill_lanczos_center_3.png"
+      "url": "https://houssembenbraiek.me/media/icon_hu46dff4dbf79dc03e46b38f18d11d3be0_4210_192x192_fill_lanczos_center_3.png"
     }
   },
   "description": "Nowadays, we are witnessing an increasing demand in both corporates and academia for exploiting Deep Learning (DL) to solve complex real-world problems. A DL program encodes the network structure of a desirable DL model and the process by which the model learns from the training dataset. Like any software, a DL program can be faulty, which implies substantial challenges of software quality assurance, especially in safety-critical domains. It is therefore crucial to equip DL development teams with efficient fault detection techniques and tools. In this article, we propose NeuraLint, a model-based fault detection approach for DL programs, using meta-modeling and graph transformations. First, we design a meta-model for DL programs that includes their base skeleton and fundamental properties. Then, we construct a graph-based verification process that covers 23 rules defined on top of the meta-model and implemented as graph transformations to detect faults and design inefficiencies in the generated models (i.e., instances of the meta-model). First, the proposed approach is evaluated by finding faults and design inefficiencies in 28 synthesized examples built from common problems reported in the literature. Then NeuraLint successfully finds 64 faults and design inefficiencies in 34 real-world DL programs extracted from Stack Overflow posts and GitHub repositories. The results show that NeuraLint effectively detects faults and design issues in both synthesized and real-world examples with a recall of 70.5% and a precision of 100%. Although the proposed meta-model is designed for feedforward neural networks, it can be extended to support other neural network architectures such as recurrent neural networks. Researchers can also expand our set of verification rules to cover more types of issues in DL programs."
@@ -365,9 +382,20 @@
 
   
 
+
+
+
+  
+  
+  
+
+  
+  
+
   
 
 
+  
   <title>Automatic Fault Detection for Deep Learning Programs Using Graph Transformations | Houssem Ben Braiek</title>
 
   
@@ -399,15 +427,19 @@
   
   
   
-  <script src="/js/wowchemy-init.min.20fb5233477a27d1668a792c2efa1fcc.js"></script>
+  <script src="/js/wowchemy-init.min.0c2a90bc12bab3dae98f86ebf684d69d.js"></script>
 
   
 
 
 
 
-  <div class="page-header">
-    
+  <div class="page-header header--fixed">
+  
+  
+  
+  
+  
 
 
 
@@ -420,7 +452,7 @@
 
 
 
-<header class="header--fixed">
+<header>
   <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
     <div class="container-xl">
 
@@ -762,6 +794,7 @@
 
         
         
+        
 
         
         
@@ -804,15 +837,16 @@
     
 
 
-
-
-
-
+  
+    
+    
+  
 
 
 <div class="pub">
 
   
+
 
 
 
@@ -972,7 +1006,7 @@
           <div class="col-12 col-md-3 pub-row-heading">Type</div>
           <div class="col-12 col-md-9">
             <a href="/publication/#2">
-              Journal article
+              2
             </a>
           </div>
         </div>
@@ -1018,8 +1052,12 @@
       
       
       
+      
+      
+      
+      
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https://hoss-bb.github.io/publication/neuralint/&amp;text=Automatic%20Fault%20Detection%20for%20Deep%20Learning%20Programs%20Using%20Graph%20Transformations" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+        <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fhoussembenbraiek.me%2Fpublication%2Fneuralint%2F&amp;text=Automatic&#43;Fault&#43;Detection&#43;for&#43;Deep&#43;Learning&#43;Programs&#43;Using&#43;Graph&#43;Transformations" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -1031,8 +1069,12 @@
       
       
       
+      
+      
+      
+      
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://hoss-bb.github.io/publication/neuralint/&amp;t=Automatic%20Fault%20Detection%20for%20Deep%20Learning%20Programs%20Using%20Graph%20Transformations" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fhoussembenbraiek.me%2Fpublication%2Fneuralint%2F&amp;t=Automatic&#43;Fault&#43;Detection&#43;for&#43;Deep&#43;Learning&#43;Programs&#43;Using&#43;Graph&#43;Transformations" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -1044,8 +1086,14 @@
       
       
       
+      
+      
+      
+      
+        
+      
       <li>
-        <a href="mailto:?subject=Automatic%20Fault%20Detection%20for%20Deep%20Learning%20Programs%20Using%20Graph%20Transformations&amp;body=https://hoss-bb.github.io/publication/neuralint/" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+        <a href="mailto:?subject=Automatic%20Fault%20Detection%20for%20Deep%20Learning%20Programs%20Using%20Graph%20Transformations&amp;body=https%3A%2F%2Fhoussembenbraiek.me%2Fpublication%2Fneuralint%2F" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -1057,8 +1105,12 @@
       
       
       
+      
+      
+      
+      
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https://hoss-bb.github.io/publication/neuralint/&amp;title=Automatic%20Fault%20Detection%20for%20Deep%20Learning%20Programs%20Using%20Graph%20Transformations" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+        <a href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fhoussembenbraiek.me%2Fpublication%2Fneuralint%2F&amp;title=Automatic&#43;Fault&#43;Detection&#43;for&#43;Deep&#43;Learning&#43;Programs&#43;Using&#43;Graph&#43;Transformations" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -1070,8 +1122,12 @@
       
       
       
+      
+      
+      
+      
       <li>
-        <a href="whatsapp://send?text=Automatic%20Fault%20Detection%20for%20Deep%20Learning%20Programs%20Using%20Graph%20Transformations%20https://hoss-bb.github.io/publication/neuralint/" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+        <a href="whatsapp://send?text=Automatic&#43;Fault&#43;Detection&#43;for&#43;Deep&#43;Learning&#43;Programs&#43;Using&#43;Graph&#43;Transformations%20https%3A%2F%2Fhoussembenbraiek.me%2Fpublication%2Fneuralint%2F" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -1083,8 +1139,12 @@
       
       
       
+      
+      
+      
+      
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https://hoss-bb.github.io/publication/neuralint/&amp;title=Automatic%20Fault%20Detection%20for%20Deep%20Learning%20Programs%20Using%20Graph%20Transformations" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https%3A%2F%2Fhoussembenbraiek.me%2Fpublication%2Fneuralint%2F&amp;title=Automatic&#43;Fault&#43;Detection&#43;for&#43;Deep&#43;Learning&#43;Programs&#43;Using&#43;Graph&#43;Transformations" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -1124,13 +1184,13 @@
   <div class="media author-card content-widget-hr">
     
       
-      <a href="https://hoss-bb.github.io/"><img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_hu0f48eb83a58bd25660a0e2936fc8e72f_144970_270x270_fill_q75_lanczos_center.jpeg" alt="Houssem Ben Braiek"></a>
+      <a href="https://houssembenbraiek.me/"><img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_hu0f48eb83a58bd25660a0e2936fc8e72f_144970_270x270_fill_q75_lanczos_center.jpeg" alt="Houssem Ben Braiek"></a>
     
 
     <div class="media-body">
-      <h5 class="card-title"><a href="https://hoss-bb.github.io/">Houssem Ben Braiek</a></h5>
+      <h5 class="card-title"><a href="https://houssembenbraiek.me/">Houssem Ben Braiek</a></h5>
       <h6 class="card-subtitle">Ph.D., M.Sc., Eng.</h6>
-      <p class="card-text">I am an MLOps specialist with a background in software engineering, holding M.Sc. and Ph.D. degrees from Polytechnique Montreal with distinction. My work focuses on optimizing ML engineering workflows and supporting academic research in SE4ML.</p>
+      <p class="card-text">I am ML Tech Lead with a background in software engineering, holding M.Sc. and Ph.D. degrees from Polytechnique Montreal with distinction. My role involves supervising and guiding the development of machine learning solutions for intelligent automation systems. As an active SEMLA member, I contribute to research projects in trustworthy AI, teach advanced technical courses in SE4ML and MLOps, and organize workshops.</p>
       <ul class="network-icon" aria-hidden="true">
   
     
@@ -1258,13 +1318,17 @@
 
 
   
+  
+  
+  
+  
 
-  
 
-  
 
-  
-  
+
+
+
+
 
 
 
@@ -1273,14 +1337,15 @@
 
   
   <p class="powered-by copyright-license-text">
-    © 2023 Houssem Ben Braiek
+    © 2024 Houssem Ben Braiek
   </p>
   
 
 
 
 
-   
+
+  
 </footer>
 
     </div>
@@ -1290,7 +1355,7 @@
   
 
 
-<script src="/js/vendor-bundle.min.d26509351aa0ff874abbee824e982e9b.js"></script>
+<script src="/js/vendor-bundle.min.391d344a129df56f7ad674c2c2ed04e8.js"></script>
 
 
 
@@ -1301,6 +1366,16 @@
   
 
   
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1334,9 +1409,7 @@
 <script id="page-data" type="application/json">{"use_headroom":true}</script>
 
 
-
-  <script src="/js/wowchemy-headroom.c251366b4128fd5e6b046d4c97a62a51.js" type="module"></script>
-
+  <script src="/js/wowchemy-headroom.db4755770454eb63685f8de785c0a172.js" type="module"></script>
 
 
 
@@ -1345,7 +1418,9 @@
 
 
 
-<script src="/en/js/wowchemy.min.5f2242f9e416ca8987b1818a173b5651.js"></script>
+
+
+<script src="/en/js/wowchemy.min.57af632a84a05835124f04e4f75dcd29.js"></script>
 
 
 
@@ -1381,7 +1456,9 @@
 </div>
 
 
-  <script src="/js/wowchemy-publication.68f8d7090562ca65fc6d3cb3f8f2d2cb.js" type="module"></script>
+  <script src="/js/wowchemy-publication.9c0e895144aef5a693008b5c5d450147.js" type="module"></script>
+
+
 
 
 

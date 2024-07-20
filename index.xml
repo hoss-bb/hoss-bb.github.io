@@ -2,15 +2,73 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Houssem Ben Braiek</title>
-    <link>https://hoss-bb.github.io/</link>
-      <atom:link href="https://hoss-bb.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://houssembenbraiek.me/</link>
+      <atom:link href="https://houssembenbraiek.me/index.xml" rel="self" type="application/rss+xml" />
     <description>Houssem Ben Braiek</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 05 Oct 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 26 Apr 2024 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://hoss-bb.github.io/media/icon_hu46dff4dbf79dc03e46b38f18d11d3be0_4210_512x512_fill_lanczos_center_3.png</url>
+      <url>https://houssembenbraiek.me/media/icon_hu46dff4dbf79dc03e46b38f18d11d3be0_4210_512x512_fill_lanczos_center_3.png</url>
       <title>Houssem Ben Braiek</title>
-      <link>https://hoss-bb.github.io/</link>
+      <link>https://houssembenbraiek.me/</link>
     </image>
+    
+    <item>
+      <title>SEMLA LLMOps Day: Bringing Practitioners, Researchers, and Students, Together</title>
+      <link>https://houssembenbraiek.me/project/llmops_day/</link>
+      <pubDate>Fri, 26 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://houssembenbraiek.me/project/llmops_day/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Machine Learning Robustness: A Primer</title>
+      <link>https://houssembenbraiek.me/publication/primer/</link>
+      <pubDate>Mon, 01 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://houssembenbraiek.me/publication/primer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Introduction to Domain-Aware DL Model Testing</title>
+      <link>https://houssembenbraiek.me/talk/introduction-to-domain-aware-dl-model-testing/</link>
+      <pubDate>Wed, 24 Jan 2024 09:30:00 +0000</pubDate>
+      <guid>https://houssembenbraiek.me/talk/introduction-to-domain-aware-dl-model-testing/</guid>
+      <description>&lt;p&gt;As of today, engineers are building DL systems for high-risk, non-quantifiable performance scenarios such as autonomous cars. This talk highlights the pressing need to incorporate domain knowledge into more rigorous and deterministic testing methodologies for DL models to ensure that these black-box solutions encapsulate the intended behaviors (in line with prior beliefs) and respond as expected within their operational domain data. The oracle problem in DL systems requires more flexible assertion tests, like invariance and directional expectation, to verify the model&amp;rsquo;s behavior even without ground truth. The presentation introduces domain-aware deep learning (DL) model testing, which complements the usual statistical assessments by addressing the challenges posed by limited training samples and pipeline underspecification. It includes results of previous research on the implementation of invariance and directional expectation tests. Additionally, it introduces semantically-preserving data transformations and their utility for generating valid inputs from complex domains using existing data. Furthermore, generative AI breakthroughs will enable us to create these complex entries using statistical learning, just as software tests are written in code.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Towards Trustworthy Deep Learning Software System</title>
+      <link>https://houssembenbraiek.me/talk/towards-trustworthy-deep-learning-software-system/</link>
+      <pubDate>Fri, 17 Nov 2023 16:00:00 +0000</pubDate>
+      <guid>https://houssembenbraiek.me/talk/towards-trustworthy-deep-learning-software-system/</guid>
+      <description>&lt;p&gt;This presentation addresses the trustworthiness of Deep Learning (DL) software by highlighting the unique challenges and distinctions between DL and traditional software. It delves into the complexities of debugging DL training programs, examining issues such as the &amp;ldquo;Untestable&amp;rdquo; nature of these programs and the practical implications of the Oracle Problem. The discussion includes property-based debugging of DL training programs, identifying common pitfalls, and detailing verification routines across pre-training, proper-fitting, and post-fitting stages. Additionally, the presentation discusses limitations in DL model testing, such as under-specification and the varied perceptions of testing value among practitioners. It emphasizes the necessity of domain-aware DL model testing methods, including invariance tests and directional expectation tests, and demonstrates their application in testing DL-powered aircraft performance models. Finally, it explores the potential of semantically-preserving data transformations and proposes that DL tests can be generated through statistical modeling.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>An Intentional Forgetting-Driven Self-Healing Method For Deep Reinforcement Learning Systems</title>
+      <link>https://houssembenbraiek.me/publication/dr_drl/</link>
+      <pubDate>Wed, 01 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>https://houssembenbraiek.me/publication/dr_drl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Robustness assessment of hyperspectral image CNNs using metamorphic testing</title>
+      <link>https://houssembenbraiek.me/publication/rsmt/</link>
+      <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://houssembenbraiek.me/publication/rsmt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SEMLA MLOps Day: Uniting Experts, Researchers &amp; Students</title>
+      <link>https://houssembenbraiek.me/project/mlops_day/</link>
+      <pubDate>Thu, 27 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://houssembenbraiek.me/project/mlops_day/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>From VGGNet to EfficientNet: Key Milestones in the Evolution of CNN Design</title>
@@ -110,42 +168,42 @@ Exhausted 🥱 We are done. We made a trip back in time together 🕕, since 201
     
     <item>
       <title>SmOOD: Smoothness-based Out-of-Distribution Detection Approach for Surrogate Neural Networks in Aircraft Design</title>
-      <link>https://hoss-bb.github.io/publication/smood/</link>
+      <link>https://houssembenbraiek.me/publication/smood/</link>
       <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
-      <guid>https://hoss-bb.github.io/publication/smood/</guid>
+      <guid>https://houssembenbraiek.me/publication/smood/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Physics-Guided Adversarial Machine Learning for Aircraft Systems Simulation</title>
-      <link>https://hoss-bb.github.io/publication/physical/</link>
+      <link>https://houssembenbraiek.me/publication/physical/</link>
       <pubDate>Mon, 01 Aug 2022 00:00:00 +0000</pubDate>
-      <guid>https://hoss-bb.github.io/publication/physical/</guid>
+      <guid>https://houssembenbraiek.me/publication/physical/</guid>
       <description></description>
     </item>
     
     <item>
       <title>DiverGet: A Search-Based Software Testing Approach for Deep Neural Network Quantization Assessment</title>
-      <link>https://hoss-bb.github.io/publication/diverget/</link>
+      <link>https://houssembenbraiek.me/publication/diverget/</link>
       <pubDate>Thu, 28 Jul 2022 00:00:00 +0000</pubDate>
-      <guid>https://hoss-bb.github.io/publication/diverget/</guid>
+      <guid>https://houssembenbraiek.me/publication/diverget/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A Hand‑on Guide on Testing Deep Neural Networks</title>
-      <link>https://hoss-bb.github.io/talk/a-handon-guide-on-testing-deep-neural-networks/</link>
+      <link>https://houssembenbraiek.me/talk/a-handon-guide-on-testing-deep-neural-networks/</link>
       <pubDate>Wed, 18 May 2022 14:30:00 +0000</pubDate>
-      <guid>https://hoss-bb.github.io/talk/a-handon-guide-on-testing-deep-neural-networks/</guid>
+      <guid>https://houssembenbraiek.me/talk/a-handon-guide-on-testing-deep-neural-networks/</guid>
       <description>&lt;p&gt;Data-driven AI (e.g., deep learning) has become a driving force and has been applied in many applications across diverse domains. The human-competitive performance makes them stand as core components in complicated software systems for tasks, e.g., computer vision (CV) and natural language processing (NLP). Corresponding to the increasing popularity of deploying more powerful and complicated DL models, there is also a pressing need to ensure the quality and reliability of these AI systems. However, the data-driven paradigm and black-box nature make such AI software fundamentally different from classical software. To this end, new software quality assurance techniques for AI-driven systems are thus challenging and needed. In this tutorial, we introduce the recent progress in AI Quality Assurance, especially for testing techniques for DNNs and provide hands-on experience. We will first give the details and discuss the difference between testing for traditional software and AI software. Then, we will provide hands-on tutorials on testing techniques for feed-forward neural networks (FNNs) with a CV use case and recurrent neural networks (RNNs) with an NLP use case. Finally, we will discuss with the audience the success and failures in achieving the full potential of testing AI software as well as possible improvements and research directions.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Domain-Aware Deep Learning Testing for Aircraft System Models</title>
-      <link>https://hoss-bb.github.io/talk/domain-aware-deep-learning-testing-for-aircraft-system-models/</link>
+      <link>https://houssembenbraiek.me/talk/domain-aware-deep-learning-testing-for-aircraft-system-models/</link>
       <pubDate>Wed, 18 May 2022 14:30:00 +0000</pubDate>
-      <guid>https://hoss-bb.github.io/talk/domain-aware-deep-learning-testing-for-aircraft-system-models/</guid>
+      <guid>https://houssembenbraiek.me/talk/domain-aware-deep-learning-testing-for-aircraft-system-models/</guid>
       <description>&lt;p&gt;With deep learning (DL) modeling, aircraft performance system simulators can be derived statistically without the extensive system knowledge required by physics-based modeling. Yet, DL&amp;rsquo;s rapid and economical simulations face serious trustworthiness challenges. Due to the high cost of aircraft flight tests, it is difficult to preserve held-out test datasets that cover the full range of the flight envelope for estimating the prediction errors of the learned DL model. Considering this risk of test data underrepresentation, even low-error models encounter credibility concerns when simulating and analyzing system behavior under all foreseeable operating conditions. Therefore, domain-aware DL testing methods become crucial to validate the properties and requirements for a DL-based system model beyond conventional performance testing. Crafting such testing methods needs an understanding of the simulated system design and a creative approach to incorporate the domain expertise without compromising the data-driven nature of DL and its acquired advantages.&lt;/p&gt;
 &lt;p&gt;Therefore, we present our physics-guided adversarial testing method that leverages foreknown physics-grounded sensitivity rules associated with the system and metaheuristic search algorithms in order to expose regions of input space where the DL model violates the system properties distilled from the physics domain knowledge. We also demonstrate how the revealed adversarial inputs can be relevant for model regularization to penalize these physics inconsistencies and to improve the model reliability. Furthermore, the verification of DL model sensitivity at different data points against physics-grounded rules pose scalability challenges when it comes to sequential models that predict dynamical system behavior over successive time steps. In response to that, we encode the directional expected variation of the predicted quantities using a simple physics model that is stochastically calibrated on the experimental dataset. Thus, in addition to assessing the error rate of the sequential DL model on genuine flight tests, we examine the extent to which the trajectory of its time series predictions matches the expected dynamics of variation under craftly-designed synthetic flight scenarios.&lt;/p&gt;
 </description>
@@ -153,9 +211,9 @@ Exhausted 🥱 We are done. We made a trip back in time together 🕕, since 201
     
     <item>
       <title>Testing Feedforward Neural Networks Training Programs</title>
-      <link>https://hoss-bb.github.io/publication/deepchecker/</link>
+      <link>https://houssembenbraiek.me/publication/deepchecker/</link>
       <pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate>
-      <guid>https://hoss-bb.github.io/publication/deepchecker/</guid>
+      <guid>https://houssembenbraiek.me/publication/deepchecker/</guid>
       <description></description>
     </item>
     
@@ -312,9 +370,9 @@ I’m glad you made it all the way to the end. It would have been nice if I coul
     
     <item>
       <title>Faults in Deep Reinforcement Learning Programs: a Taxonomy and a Detection Approach</title>
-      <link>https://hoss-bb.github.io/publication/ase2021/</link>
+      <link>https://houssembenbraiek.me/publication/ase2021/</link>
       <pubDate>Tue, 28 Dec 2021 00:00:00 +0000</pubDate>
-      <guid>https://hoss-bb.github.io/publication/ase2021/</guid>
+      <guid>https://houssembenbraiek.me/publication/ase2021/</guid>
       <description></description>
     </item>
     
@@ -361,91 +419,91 @@ You have made it all the way to the end. I would guess you are either an ML prac
     
     <item>
       <title>Automatic Fault Detection for Deep Learning Programs Using Graph Transformations</title>
-      <link>https://hoss-bb.github.io/publication/neuralint/</link>
+      <link>https://houssembenbraiek.me/publication/neuralint/</link>
       <pubDate>Tue, 28 Sep 2021 00:00:00 +0000</pubDate>
-      <guid>https://hoss-bb.github.io/publication/neuralint/</guid>
+      <guid>https://houssembenbraiek.me/publication/neuralint/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Models of Computational Profiles to Study the Likelihood of DNN Metamorphic Test Cases</title>
-      <link>https://hoss-bb.github.io/publication/imlse2020/</link>
+      <link>https://houssembenbraiek.me/publication/imlse2020/</link>
       <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>https://hoss-bb.github.io/publication/imlse2020/</guid>
+      <guid>https://houssembenbraiek.me/publication/imlse2020/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The Scent of Deep Learning Code: An Empirical Study</title>
-      <link>https://hoss-bb.github.io/publication/msr2020/</link>
+      <link>https://houssembenbraiek.me/publication/msr2020/</link>
       <pubDate>Sun, 28 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://hoss-bb.github.io/publication/msr2020/</guid>
+      <guid>https://houssembenbraiek.me/publication/msr2020/</guid>
       <description></description>
     </item>
     
     <item>
       <title>On Testing Machine Learning Programs</title>
-      <link>https://hoss-bb.github.io/publication/review/</link>
+      <link>https://houssembenbraiek.me/publication/review/</link>
       <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://hoss-bb.github.io/publication/review/</guid>
+      <guid>https://houssembenbraiek.me/publication/review/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Hands-on Coding Session on Debugging Neural Networks Programs</title>
-      <link>https://hoss-bb.github.io/talk/hands-on-coding-session-on-debugging-neural-networks-programs/</link>
+      <link>https://houssembenbraiek.me/talk/hands-on-coding-session-on-debugging-neural-networks-programs/</link>
       <pubDate>Tue, 03 Mar 2020 15:00:00 +0000</pubDate>
-      <guid>https://hoss-bb.github.io/talk/hands-on-coding-session-on-debugging-neural-networks-programs/</guid>
+      <guid>https://houssembenbraiek.me/talk/hands-on-coding-session-on-debugging-neural-networks-programs/</guid>
       <description>&lt;p&gt;The goal of this hands-on session is to practice troubleshooting neural network training programs. The provided example consists of a VGG-like ConvNet trained on CIFAR-10 classification. If we fix the injected bugs (that I know), it should achieve more than 80% accuracy on the test set after more than 20 epochs. The debugging process is more relevant than finding the bug. Hence, we will walk through the steps you should follow towards hunting bugs. It is not about doing an in-depth review of code based on the participant&amp;rsquo;s Tensorflow coding skills, but rather about codifying verification routines in order to monitor the dynamics of critical variables and components that may indicate coding errors, misconfigurations, or training anomalies.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Dagstuhl Seminar 20091 on Software Engineering for AI-ML-based Systems</title>
-      <link>https://hoss-bb.github.io/project/dagstuhl/</link>
+      <link>https://houssembenbraiek.me/project/dagstuhl/</link>
       <pubDate>Thu, 20 Feb 2020 00:00:00 +0000</pubDate>
-      <guid>https://hoss-bb.github.io/project/dagstuhl/</guid>
+      <guid>https://houssembenbraiek.me/project/dagstuhl/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Shonan Meeting NO.156 on Software Engineering for Machine Learning Applications</title>
-      <link>https://hoss-bb.github.io/project/shonan/</link>
+      <link>https://houssembenbraiek.me/project/shonan/</link>
       <pubDate>Sun, 20 Oct 2019 00:00:00 +0000</pubDate>
-      <guid>https://hoss-bb.github.io/project/shonan/</guid>
+      <guid>https://houssembenbraiek.me/project/shonan/</guid>
       <description></description>
     </item>
     
     <item>
       <title>DeepEvolution: A Search-Based Testing Approach for Deep Neural Networks</title>
-      <link>https://hoss-bb.github.io/publication/deepevolution/</link>
+      <link>https://houssembenbraiek.me/publication/deepevolution/</link>
       <pubDate>Sun, 01 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>https://hoss-bb.github.io/publication/deepevolution/</guid>
+      <guid>https://houssembenbraiek.me/publication/deepevolution/</guid>
       <description></description>
     </item>
     
     <item>
       <title>TFCheck : A TensorFlow Library for Detecting Training Issues in Neural Network Programs</title>
-      <link>https://hoss-bb.github.io/publication/tfcheck/</link>
+      <link>https://houssembenbraiek.me/publication/tfcheck/</link>
       <pubDate>Mon, 22 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://hoss-bb.github.io/publication/tfcheck/</guid>
+      <guid>https://houssembenbraiek.me/publication/tfcheck/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Hands-on Coding Session on Metamorphic Testing of Neural Networks</title>
-      <link>https://hoss-bb.github.io/talk/hands-on-coding-session-on-metamorphic-testing-of-neural-networks/</link>
+      <link>https://houssembenbraiek.me/talk/hands-on-coding-session-on-metamorphic-testing-of-neural-networks/</link>
       <pubDate>Thu, 23 May 2019 14:00:00 +0000</pubDate>
-      <guid>https://hoss-bb.github.io/talk/hands-on-coding-session-on-metamorphic-testing-of-neural-networks/</guid>
+      <guid>https://houssembenbraiek.me/talk/hands-on-coding-session-on-metamorphic-testing-of-neural-networks/</guid>
       <description>&lt;p&gt;Automating large-scale test case generation requires using multiple image transformations to build a large number of metamorphic transformations and their follow-up tests, in order to find DNN&amp;rsquo;s erroneous behaviors. In fact, the metamorphic transformation should be designed so that the transformed and original inputs are semantically equivalent. Thus, the first coding task is to implement metamorphic transformations on the input, assembling all the provided image-based transformations to guarantee the diversity of generated inputs. In order to estimate the level of logic explored by inputs, neuronal coverage criteria are employed, which estimate the amount of activation states covered by inputs. It is therefore essential that we store each valid synthetic input that fools the DNN under test. Hence, the second coding task is to develop the follow-up test that takes the logits returned by the DNN for the transformed data to check if the test fails or succeeds, then stores the synthetic images corresponding to the failed tests.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Slides</title>
-      <link>https://hoss-bb.github.io/slides/example/</link>
+      <link>https://houssembenbraiek.me/slides/example/</link>
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>https://hoss-bb.github.io/slides/example/</guid>
+      <guid>https://houssembenbraiek.me/slides/example/</guid>
       <description>&lt;h1 id=&#34;create-slides-in-markdown-with-wowchemy&#34;&gt;Create slides in Markdown with Wowchemy&lt;/h1&gt;
 &lt;p&gt;&lt;a href=&#34;https://wowchemy.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wowchemy&lt;/a&gt; | &lt;a href=&#34;https://wowchemy.com/docs/content/slides/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
@@ -568,33 +626,25 @@ $$&lt;/p&gt;
     
     <item>
       <title>The Open-Closed Principle of Modern Machine Learning Frameworks&#39;</title>
-      <link>https://hoss-bb.github.io/publication/msr2018/</link>
+      <link>https://houssembenbraiek.me/publication/msr2018/</link>
       <pubDate>Sun, 27 May 2018 00:00:00 +0000</pubDate>
-      <guid>https://hoss-bb.github.io/publication/msr2018/</guid>
+      <guid>https://houssembenbraiek.me/publication/msr2018/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Aimia - Data Philanthropy 2018</title>
-      <link>https://hoss-bb.github.io/project/aimia/</link>
+      <link>https://houssembenbraiek.me/project/aimia/</link>
       <pubDate>Fri, 20 Apr 2018 00:00:00 +0000</pubDate>
-      <guid>https://hoss-bb.github.io/project/aimia/</guid>
+      <guid>https://houssembenbraiek.me/project/aimia/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Improved Algorithm for Hyperspectral Image Classification</title>
-      <link>https://hoss-bb.github.io/publication/jei2018/</link>
+      <link>https://houssembenbraiek.me/publication/jei2018/</link>
       <pubDate>Sun, 28 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://hoss-bb.github.io/publication/jei2018/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://hoss-bb.github.io/admin/config.yml</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://hoss-bb.github.io/admin/config.yml</guid>
+      <guid>https://houssembenbraiek.me/publication/jei2018/</guid>
       <description></description>
     </item>
     

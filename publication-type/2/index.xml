@@ -2,69 +2,77 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2 | Houssem Ben Braiek</title>
-    <link>https://hoss-bb.github.io/publication-type/2/</link>
-      <atom:link href="https://hoss-bb.github.io/publication-type/2/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://houssembenbraiek.me/publication-type/2/</link>
+      <atom:link href="https://houssembenbraiek.me/publication-type/2/index.xml" rel="self" type="application/rss+xml" />
     <description>2</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Aug 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Oct 2023 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://hoss-bb.github.io/media/icon_hu46dff4dbf79dc03e46b38f18d11d3be0_4210_512x512_fill_lanczos_center_3.png</url>
+      <url>https://houssembenbraiek.me/media/icon_hu46dff4dbf79dc03e46b38f18d11d3be0_4210_512x512_fill_lanczos_center_3.png</url>
       <title>2</title>
-      <link>https://hoss-bb.github.io/publication-type/2/</link>
+      <link>https://houssembenbraiek.me/publication-type/2/</link>
     </image>
     
     <item>
+      <title>Robustness assessment of hyperspectral image CNNs using metamorphic testing</title>
+      <link>https://houssembenbraiek.me/publication/rsmt/</link>
+      <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://houssembenbraiek.me/publication/rsmt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Physics-Guided Adversarial Machine Learning for Aircraft Systems Simulation</title>
-      <link>https://hoss-bb.github.io/publication/physical/</link>
+      <link>https://houssembenbraiek.me/publication/physical/</link>
       <pubDate>Mon, 01 Aug 2022 00:00:00 +0000</pubDate>
-      <guid>https://hoss-bb.github.io/publication/physical/</guid>
+      <guid>https://houssembenbraiek.me/publication/physical/</guid>
       <description></description>
     </item>
     
     <item>
       <title>DiverGet: A Search-Based Software Testing Approach for Deep Neural Network Quantization Assessment</title>
-      <link>https://hoss-bb.github.io/publication/diverget/</link>
+      <link>https://houssembenbraiek.me/publication/diverget/</link>
       <pubDate>Thu, 28 Jul 2022 00:00:00 +0000</pubDate>
-      <guid>https://hoss-bb.github.io/publication/diverget/</guid>
+      <guid>https://houssembenbraiek.me/publication/diverget/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Testing Feedforward Neural Networks Training Programs</title>
-      <link>https://hoss-bb.github.io/publication/deepchecker/</link>
+      <link>https://houssembenbraiek.me/publication/deepchecker/</link>
       <pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate>
-      <guid>https://hoss-bb.github.io/publication/deepchecker/</guid>
+      <guid>https://houssembenbraiek.me/publication/deepchecker/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Faults in Deep Reinforcement Learning Programs: a Taxonomy and a Detection Approach</title>
-      <link>https://hoss-bb.github.io/publication/ase2021/</link>
+      <link>https://houssembenbraiek.me/publication/ase2021/</link>
       <pubDate>Tue, 28 Dec 2021 00:00:00 +0000</pubDate>
-      <guid>https://hoss-bb.github.io/publication/ase2021/</guid>
+      <guid>https://houssembenbraiek.me/publication/ase2021/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Automatic Fault Detection for Deep Learning Programs Using Graph Transformations</title>
-      <link>https://hoss-bb.github.io/publication/neuralint/</link>
+      <link>https://houssembenbraiek.me/publication/neuralint/</link>
       <pubDate>Tue, 28 Sep 2021 00:00:00 +0000</pubDate>
-      <guid>https://hoss-bb.github.io/publication/neuralint/</guid>
+      <guid>https://houssembenbraiek.me/publication/neuralint/</guid>
       <description></description>
     </item>
     
     <item>
       <title>On Testing Machine Learning Programs</title>
-      <link>https://hoss-bb.github.io/publication/review/</link>
+      <link>https://houssembenbraiek.me/publication/review/</link>
       <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://hoss-bb.github.io/publication/review/</guid>
+      <guid>https://houssembenbraiek.me/publication/review/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Improved Algorithm for Hyperspectral Image Classification</title>
-      <link>https://hoss-bb.github.io/publication/jei2018/</link>
+      <link>https://houssembenbraiek.me/publication/jei2018/</link>
       <pubDate>Sun, 28 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://hoss-bb.github.io/publication/jei2018/</guid>
+      <guid>https://houssembenbraiek.me/publication/jei2018/</guid>
       <description></description>
     </item>
     

@@ -1,4 +1,6 @@
-<!DOCTYPE html><html lang="en-us" >
+<!DOCTYPE html>
+<!-- This site was created with Hugo Blox. https://hugoblox.com -->
+<!-- Last Published: July 20, 2024 --><html lang="en-us" >
 
 
 <head>
@@ -8,7 +10,7 @@
   
   
   
-    <meta name="generator" content="Wowchemy 5.6.0 for Hugo" />
+    <meta name="generator" content="Hugo Blox Builder 5.9.7" />
   
 
   
@@ -62,39 +64,13 @@
 
   
   
-  
-  
-  
-    
-    
-    
-  
-  
-
-  <meta name="author" content="Houssem Ben Braiek" />
-
-  
-  
-  
-    
-  
-  <meta name="description" content="Deep learning practitioners are often interested in improving their model accuracy rather than the interpretability of their models. As a result, deep learning applications are inherently complex in their structures. They also need to continuously evolve in terms of code changes and model updates. Given these confounding factors, there is a great chance of violating the recommended programming practices by the developers in their deep learning applications. In particular, the code quality might be negatively affected due to their drive for the higher model performance. Unfortunately, the code quality of deep learning applications has rarely been studied to date. In this paper, we conduct an empirical study to investigate the distribution of code smells in deep learning applications. To this end, we perform a comparative analysis between deep learning and traditional open-source applications collected from GitHub. We have several major findings. First, long lambda expression, long ternary conditional expression, and complex container comprehension smells are frequently found in deep learning projects. That is, deep learning code involves more complex or longer expressions than the traditional code does. Second, the number of code smells increases across the releases of deep learning applications. Third, we found that there is a co-existence between code smells and software bugs in the studied deep learning code, which confirms our conjecture on the degraded code quality of deep learning applications." />
-
-  
-  <link rel="alternate" hreflang="en-us" href="https://hoss-bb.github.io/publication/msr2020/" />
-
-  
-  
-  
-    <meta name="theme-color" content="#3f51b5" />
-  
 
   
   
 
   
 
-  <link rel="stylesheet" href="/css/vendor-bundle.min.c7b8d9abd591ba2253ea42747e3ac3f5.css" media="print" onload="this.media='all'">
+  <link rel="stylesheet" href="/css/vendor-bundle.min.26c458e6907dc03073573976b7f4044e.css" media="print" onload="this.media='all'">
 
   
   
@@ -234,7 +210,11 @@
   
   
   
-  <link rel="stylesheet" href="/css/wowchemy.9c4c13a48bae91f201c0af6081455e43.css" />
+  <link rel="stylesheet" href="/css/wowchemy.e7df2040558ed14dd42d4e15685c082b.css" />
+
+  
+  
+  
 
   
   
@@ -254,71 +234,108 @@
 
 
 
-  
-
-
-  
-
-
-  
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   
   
   
 
+
+
+
+
+
+  <meta name="author" content="Houssem Ben Braiek" />
+
+
+
+
+
   
-  
+
+<meta name="description" content="Deep learning practitioners are often interested in improving their model accuracy rather than the interpretability of their models. As a result, deep learning applications are inherently complex in their structures. They also need to continuously evolve in terms of code changes and model updates. Given these confounding factors, there is a great chance of violating the recommended programming practices by the developers in their deep learning applications. In particular, the code quality might be negatively affected due to their drive for the higher model performance. Unfortunately, the code quality of deep learning applications has rarely been studied to date. In this paper, we conduct an empirical study to investigate the distribution of code smells in deep learning applications. To this end, we perform a comparative analysis between deep learning and traditional open-source applications collected from GitHub. We have several major findings. First, long lambda expression, long ternary conditional expression, and complex container comprehension smells are frequently found in deep learning projects. That is, deep learning code involves more complex or longer expressions than the traditional code does. Second, the number of code smells increases across the releases of deep learning applications. Third, we found that there is a co-existence between code smells and software bugs in the studied deep learning code, which confirms our conjecture on the degraded code quality of deep learning applications." />
+
+
+
+<link rel="alternate" hreflang="en-us" href="https://houssembenbraiek.me/publication/msr2020/" />
+<link rel="canonical" href="https://houssembenbraiek.me/publication/msr2020/" />
+
+
+
+  <link rel="manifest" href="/manifest.webmanifest" />
+
+
+
+<link rel="icon" type="image/png" href="/media/icon_hu46dff4dbf79dc03e46b38f18d11d3be0_4210_32x32_fill_lanczos_center_3.png" />
+<link rel="apple-touch-icon" type="image/png" href="/media/icon_hu46dff4dbf79dc03e46b38f18d11d3be0_4210_180x180_fill_lanczos_center_3.png" />
+
+<meta name="theme-color" content="#3f51b5" />
+
+
+
+
+
+
+
+
+
 
   
   
-    <link rel="manifest" href="/manifest.webmanifest" />
-  
+
+
+
+
+
+
+<meta property="twitter:card" content="summary" />
+<meta property="twitter:image" content="https://houssembenbraiek.me/media/icon_hu46dff4dbf79dc03e46b38f18d11d3be0_4210_512x512_fill_lanczos_center_3.png" />
+
+
 
   
-  <link rel="icon" type="image/png" href="/media/icon_hu46dff4dbf79dc03e46b38f18d11d3be0_4210_32x32_fill_lanczos_center_3.png" />
-  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu46dff4dbf79dc03e46b38f18d11d3be0_4210_180x180_fill_lanczos_center_3.png" />
 
-  <link rel="canonical" href="https://hoss-bb.github.io/publication/msr2020/" />
-
-  
-  
-  
-  
-  
-  
-  
-  
-    
-    
-  
-  
+<meta property="og:type" content="article" />
+<meta property="og:site_name" content="Houssem Ben Braiek" />
+<meta property="og:url" content="https://houssembenbraiek.me/publication/msr2020/" />
+<meta property="og:title" content="The Scent of Deep Learning Code: An Empirical Study | Houssem Ben Braiek" />
+<meta property="og:description" content="Deep learning practitioners are often interested in improving their model accuracy rather than the interpretability of their models. As a result, deep learning applications are inherently complex in their structures. They also need to continuously evolve in terms of code changes and model updates. Given these confounding factors, there is a great chance of violating the recommended programming practices by the developers in their deep learning applications. In particular, the code quality might be negatively affected due to their drive for the higher model performance. Unfortunately, the code quality of deep learning applications has rarely been studied to date. In this paper, we conduct an empirical study to investigate the distribution of code smells in deep learning applications. To this end, we perform a comparative analysis between deep learning and traditional open-source applications collected from GitHub. We have several major findings. First, long lambda expression, long ternary conditional expression, and complex container comprehension smells are frequently found in deep learning projects. That is, deep learning code involves more complex or longer expressions than the traditional code does. Second, the number of code smells increases across the releases of deep learning applications. Third, we found that there is a co-existence between code smells and software bugs in the studied deep learning code, which confirms our conjecture on the degraded code quality of deep learning applications." /><meta property="og:image" content="https://houssembenbraiek.me/media/icon_hu46dff4dbf79dc03e46b38f18d11d3be0_4210_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
 
   
+    <meta
+      property="article:published_time"
+      content="2020-06-28T00:00:00&#43;00:00"
+    />
   
-    
-    
   
-  <meta property="twitter:card" content="summary" />
-  
-  <meta property="og:site_name" content="Houssem Ben Braiek" />
-  <meta property="og:url" content="https://hoss-bb.github.io/publication/msr2020/" />
-  <meta property="og:title" content="The Scent of Deep Learning Code: An Empirical Study | Houssem Ben Braiek" />
-  <meta property="og:description" content="Deep learning practitioners are often interested in improving their model accuracy rather than the interpretability of their models. As a result, deep learning applications are inherently complex in their structures. They also need to continuously evolve in terms of code changes and model updates. Given these confounding factors, there is a great chance of violating the recommended programming practices by the developers in their deep learning applications. In particular, the code quality might be negatively affected due to their drive for the higher model performance. Unfortunately, the code quality of deep learning applications has rarely been studied to date. In this paper, we conduct an empirical study to investigate the distribution of code smells in deep learning applications. To this end, we perform a comparative analysis between deep learning and traditional open-source applications collected from GitHub. We have several major findings. First, long lambda expression, long ternary conditional expression, and complex container comprehension smells are frequently found in deep learning projects. That is, deep learning code involves more complex or longer expressions than the traditional code does. Second, the number of code smells increases across the releases of deep learning applications. Third, we found that there is a co-existence between code smells and software bugs in the studied deep learning code, which confirms our conjecture on the degraded code quality of deep learning applications." /><meta property="og:image" content="https://hoss-bb.github.io/media/icon_hu46dff4dbf79dc03e46b38f18d11d3be0_4210_512x512_fill_lanczos_center_3.png" />
-    <meta property="twitter:image" content="https://hoss-bb.github.io/media/icon_hu46dff4dbf79dc03e46b38f18d11d3be0_4210_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
-  
-    
-      <meta
-        property="article:published_time"
-        content="2020-06-28T00:00:00&#43;00:00"
-      />
-    
     <meta property="article:modified_time" content="2020-06-28T00:00:00&#43;00:00">
   
 
-  
+
+
+
 
 
     
@@ -337,7 +354,7 @@
   "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://hoss-bb.github.io/publication/msr2020/"
+    "@id": "https://houssembenbraiek.me/publication/msr2020/"
   },
   "headline": "The Scent of Deep Learning Code: An Empirical Study",
   
@@ -354,7 +371,7 @@
     "name": "Houssem Ben Braiek",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://hoss-bb.github.io/media/icon_hu46dff4dbf79dc03e46b38f18d11d3be0_4210_192x192_fill_lanczos_center_3.png"
+      "url": "https://houssembenbraiek.me/media/icon_hu46dff4dbf79dc03e46b38f18d11d3be0_4210_192x192_fill_lanczos_center_3.png"
     }
   },
   "description": "Deep learning practitioners are often interested in improving their model accuracy rather than the interpretability of their models. As a result, deep learning applications are inherently complex in their structures. They also need to continuously evolve in terms of code changes and model updates. Given these confounding factors, there is a great chance of violating the recommended programming practices by the developers in their deep learning applications. In particular, the code quality might be negatively affected due to their drive for the higher model performance. Unfortunately, the code quality of deep learning applications has rarely been studied to date. In this paper, we conduct an empirical study to investigate the distribution of code smells in deep learning applications. To this end, we perform a comparative analysis between deep learning and traditional open-source applications collected from GitHub. We have several major findings. First, long lambda expression, long ternary conditional expression, and complex container comprehension smells are frequently found in deep learning projects. That is, deep learning code involves more complex or longer expressions than the traditional code does. Second, the number of code smells increases across the releases of deep learning applications. Third, we found that there is a co-existence between code smells and software bugs in the studied deep learning code, which confirms our conjecture on the degraded code quality of deep learning applications."
@@ -365,9 +382,20 @@
 
   
 
+
+
+
+  
+  
+  
+
+  
+  
+
   
 
 
+  
   <title>The Scent of Deep Learning Code: An Empirical Study | Houssem Ben Braiek</title>
 
   
@@ -399,15 +427,19 @@
   
   
   
-  <script src="/js/wowchemy-init.min.20fb5233477a27d1668a792c2efa1fcc.js"></script>
+  <script src="/js/wowchemy-init.min.0c2a90bc12bab3dae98f86ebf684d69d.js"></script>
 
   
 
 
 
 
-  <div class="page-header">
-    
+  <div class="page-header header--fixed">
+  
+  
+  
+  
+  
 
 
 
@@ -420,7 +452,7 @@
 
 
 
-<header class="header--fixed">
+<header>
   <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
     <div class="container-xl">
 
@@ -762,6 +794,7 @@
 
         
         
+        
 
         
         
@@ -804,15 +837,16 @@
     
 
 
-
-
-
-
+  
+    
+    
+  
 
 
 <div class="pub">
 
   
+
 
 
 
@@ -964,7 +998,7 @@
           <div class="col-12 col-md-3 pub-row-heading">Type</div>
           <div class="col-12 col-md-9">
             <a href="/publication/#1">
-              Conference paper
+              1
             </a>
           </div>
         </div>
@@ -1010,8 +1044,12 @@
       
       
       
+      
+      
+      
+      
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https://hoss-bb.github.io/publication/msr2020/&amp;text=The%20Scent%20of%20Deep%20Learning%20Code:%20An%20Empirical%20Study" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+        <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fhoussembenbraiek.me%2Fpublication%2Fmsr2020%2F&amp;text=The&#43;Scent&#43;of&#43;Deep&#43;Learning&#43;Code%3A&#43;An&#43;Empirical&#43;Study" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -1023,8 +1061,12 @@
       
       
       
+      
+      
+      
+      
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://hoss-bb.github.io/publication/msr2020/&amp;t=The%20Scent%20of%20Deep%20Learning%20Code:%20An%20Empirical%20Study" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fhoussembenbraiek.me%2Fpublication%2Fmsr2020%2F&amp;t=The&#43;Scent&#43;of&#43;Deep&#43;Learning&#43;Code%3A&#43;An&#43;Empirical&#43;Study" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -1036,8 +1078,14 @@
       
       
       
+      
+      
+      
+      
+        
+      
       <li>
-        <a href="mailto:?subject=The%20Scent%20of%20Deep%20Learning%20Code:%20An%20Empirical%20Study&amp;body=https://hoss-bb.github.io/publication/msr2020/" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+        <a href="mailto:?subject=The%20Scent%20of%20Deep%20Learning%20Code%3A%20An%20Empirical%20Study&amp;body=https%3A%2F%2Fhoussembenbraiek.me%2Fpublication%2Fmsr2020%2F" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -1049,8 +1097,12 @@
       
       
       
+      
+      
+      
+      
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https://hoss-bb.github.io/publication/msr2020/&amp;title=The%20Scent%20of%20Deep%20Learning%20Code:%20An%20Empirical%20Study" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+        <a href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fhoussembenbraiek.me%2Fpublication%2Fmsr2020%2F&amp;title=The&#43;Scent&#43;of&#43;Deep&#43;Learning&#43;Code%3A&#43;An&#43;Empirical&#43;Study" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -1062,8 +1114,12 @@
       
       
       
+      
+      
+      
+      
       <li>
-        <a href="whatsapp://send?text=The%20Scent%20of%20Deep%20Learning%20Code:%20An%20Empirical%20Study%20https://hoss-bb.github.io/publication/msr2020/" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+        <a href="whatsapp://send?text=The&#43;Scent&#43;of&#43;Deep&#43;Learning&#43;Code%3A&#43;An&#43;Empirical&#43;Study%20https%3A%2F%2Fhoussembenbraiek.me%2Fpublication%2Fmsr2020%2F" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -1075,8 +1131,12 @@
       
       
       
+      
+      
+      
+      
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https://hoss-bb.github.io/publication/msr2020/&amp;title=The%20Scent%20of%20Deep%20Learning%20Code:%20An%20Empirical%20Study" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https%3A%2F%2Fhoussembenbraiek.me%2Fpublication%2Fmsr2020%2F&amp;title=The&#43;Scent&#43;of&#43;Deep&#43;Learning&#43;Code%3A&#43;An&#43;Empirical&#43;Study" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -1116,13 +1176,13 @@
   <div class="media author-card content-widget-hr">
     
       
-      <a href="https://hoss-bb.github.io/"><img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_hu0f48eb83a58bd25660a0e2936fc8e72f_144970_270x270_fill_q75_lanczos_center.jpeg" alt="Houssem Ben Braiek"></a>
+      <a href="https://houssembenbraiek.me/"><img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_hu0f48eb83a58bd25660a0e2936fc8e72f_144970_270x270_fill_q75_lanczos_center.jpeg" alt="Houssem Ben Braiek"></a>
     
 
     <div class="media-body">
-      <h5 class="card-title"><a href="https://hoss-bb.github.io/">Houssem Ben Braiek</a></h5>
+      <h5 class="card-title"><a href="https://houssembenbraiek.me/">Houssem Ben Braiek</a></h5>
       <h6 class="card-subtitle">Ph.D., M.Sc., Eng.</h6>
-      <p class="card-text">I am an MLOps specialist with a background in software engineering, holding M.Sc. and Ph.D. degrees from Polytechnique Montreal with distinction. My work focuses on optimizing ML engineering workflows and supporting academic research in SE4ML.</p>
+      <p class="card-text">I am ML Tech Lead with a background in software engineering, holding M.Sc. and Ph.D. degrees from Polytechnique Montreal with distinction. My role involves supervising and guiding the development of machine learning solutions for intelligent automation systems. As an active SEMLA member, I contribute to research projects in trustworthy AI, teach advanced technical courses in SE4ML and MLOps, and organize workshops.</p>
       <ul class="network-icon" aria-hidden="true">
   
     
@@ -1250,13 +1310,17 @@
 
 
   
+  
+  
+  
+  
 
-  
 
-  
 
-  
-  
+
+
+
+
 
 
 
@@ -1265,14 +1329,15 @@
 
   
   <p class="powered-by copyright-license-text">
-    © 2023 Houssem Ben Braiek
+    © 2024 Houssem Ben Braiek
   </p>
   
 
 
 
 
-   
+
+  
 </footer>
 
     </div>
@@ -1282,7 +1347,7 @@
   
 
 
-<script src="/js/vendor-bundle.min.d26509351aa0ff874abbee824e982e9b.js"></script>
+<script src="/js/vendor-bundle.min.391d344a129df56f7ad674c2c2ed04e8.js"></script>
 
 
 
@@ -1293,6 +1358,16 @@
   
 
   
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1326,9 +1401,7 @@
 <script id="page-data" type="application/json">{"use_headroom":true}</script>
 
 
-
-  <script src="/js/wowchemy-headroom.c251366b4128fd5e6b046d4c97a62a51.js" type="module"></script>
-
+  <script src="/js/wowchemy-headroom.db4755770454eb63685f8de785c0a172.js" type="module"></script>
 
 
 
@@ -1337,7 +1410,9 @@
 
 
 
-<script src="/en/js/wowchemy.min.5f2242f9e416ca8987b1818a173b5651.js"></script>
+
+
+<script src="/en/js/wowchemy.min.57af632a84a05835124f04e4f75dcd29.js"></script>
 
 
 
@@ -1373,7 +1448,9 @@
 </div>
 
 
-  <script src="/js/wowchemy-publication.68f8d7090562ca65fc6d3cb3f8f2d2cb.js" type="module"></script>
+  <script src="/js/wowchemy-publication.9c0e895144aef5a693008b5c5d450147.js" type="module"></script>
+
+
 
 
 
