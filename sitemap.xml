@@ -2,8 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://houssembenbraiek.me/publication-type/1/</loc>
+    <lastmod>2024-10-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://houssembenbraiek.me/</loc>
-    <lastmod>2024-04-26T00:00:00+00:00</lastmod>
+    <lastmod>2024-10-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://houssembenbraiek.me/publication/marvens/</loc>
+    <lastmod>2024-10-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://houssembenbraiek.me/publication_types/</loc>
+    <lastmod>2024-10-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://houssembenbraiek.me/publication/</loc>
+    <lastmod>2024-10-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://houssembenbraiek.me/talk/ensuring-the-reliability-robustness-and-ethical-compliance-of-llms/</loc>
+    <lastmod>2024-08-22T15:30:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://houssembenbraiek.me/event/</loc>
+    <lastmod>2024-08-22T15:30:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://houssembenbraiek.me/project/</loc>
@@ -22,28 +46,12 @@
     <lastmod>2024-04-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://houssembenbraiek.me/publication_types/</loc>
-    <lastmod>2024-04-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://houssembenbraiek.me/publication/</loc>
-    <lastmod>2024-04-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://houssembenbraiek.me/talk/introduction-to-domain-aware-dl-model-testing/</loc>
-    <lastmod>2024-01-24T09:30:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://houssembenbraiek.me/event/</loc>
     <lastmod>2024-01-24T09:30:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://houssembenbraiek.me/talk/towards-trustworthy-deep-learning-software-system/</loc>
     <lastmod>2023-11-17T16:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://houssembenbraiek.me/publication-type/1/</loc>
-    <lastmod>2023-11-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://houssembenbraiek.me/publication/dr_drl/</loc>

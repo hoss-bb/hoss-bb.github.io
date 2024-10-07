@@ -5,12 +5,20 @@
     <link>https://houssembenbraiek.me/publication/</link>
       <atom:link href="https://houssembenbraiek.me/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 01 Oct 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://houssembenbraiek.me/media/icon_hu46dff4dbf79dc03e46b38f18d11d3be0_4210_512x512_fill_lanczos_center_3.png</url>
       <title>Publications</title>
       <link>https://houssembenbraiek.me/publication/</link>
     </image>
+    
+    <item>
+      <title>In-Simulation Testing of Deep Learning Vision Models in Autonomous Robotic Manipulators</title>
+      <link>https://houssembenbraiek.me/publication/marvens/</link>
+      <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://houssembenbraiek.me/publication/marvens/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Machine Learning Robustness: A Primer</title>

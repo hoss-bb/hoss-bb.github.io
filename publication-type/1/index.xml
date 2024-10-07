@@ -5,12 +5,20 @@
     <link>https://houssembenbraiek.me/publication-type/1/</link>
       <atom:link href="https://houssembenbraiek.me/publication-type/1/index.xml" rel="self" type="application/rss+xml" />
     <description>1</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Nov 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 01 Oct 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://houssembenbraiek.me/media/icon_hu46dff4dbf79dc03e46b38f18d11d3be0_4210_512x512_fill_lanczos_center_3.png</url>
       <title>1</title>
       <link>https://houssembenbraiek.me/publication-type/1/</link>
     </image>
+    
+    <item>
+      <title>In-Simulation Testing of Deep Learning Vision Models in Autonomous Robotic Manipulators</title>
+      <link>https://houssembenbraiek.me/publication/marvens/</link>
+      <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://houssembenbraiek.me/publication/marvens/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>An Intentional Forgetting-Driven Self-Healing Method For Deep Reinforcement Learning Systems</title>

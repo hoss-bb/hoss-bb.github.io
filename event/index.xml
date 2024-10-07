@@ -5,12 +5,21 @@
     <link>https://houssembenbraiek.me/event/</link>
       <atom:link href="https://houssembenbraiek.me/event/index.xml" rel="self" type="application/rss+xml" />
     <description>Recent &amp; Upcoming Talks</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 24 Jan 2024 09:30:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 22 Aug 2024 15:30:00 +0000</lastBuildDate>
     <image>
       <url>https://houssembenbraiek.me/media/icon_hu46dff4dbf79dc03e46b38f18d11d3be0_4210_512x512_fill_lanczos_center_3.png</url>
       <title>Recent &amp; Upcoming Talks</title>
       <link>https://houssembenbraiek.me/event/</link>
     </image>
+    
+    <item>
+      <title>Ensuring the Reliability, Robustness, and Ethical Compliance of LLMs</title>
+      <link>https://houssembenbraiek.me/talk/ensuring-the-reliability-robustness-and-ethical-compliance-of-llms/</link>
+      <pubDate>Thu, 22 Aug 2024 15:30:00 +0000</pubDate>
+      <guid>https://houssembenbraiek.me/talk/ensuring-the-reliability-robustness-and-ethical-compliance-of-llms/</guid>
+      <description>&lt;p&gt;Large Language Models (LLMs) have revolutionized natural language processing by enabling human-like text generation and conversation. However, their non-deterministic nature, coupled with the complexities of modern applications, raises significant concerns around reliability, robustness, and ethical compliance. This presentation post delves into the challenges faced when integrating LLMs into real-world systems, particularly around testing and validation. We explore the limitations of traditional unit testing in handling LLM-generated outputs, offering new approaches such as LLM judges, black-box confidence estimation, and post-run output validation. Furthermore, we introduce tools like DeepEval and Guardrails AI, which help testing and guarding LLMs&amp;rsquo; generations while ensuring alignment with business, legal, and ethical standards. The discussion highlights the importance of balancing creative, generative power with rigorous validation processes to maintain trustworthiness in LLM applications. Through this comprehensive examination, we aim to provide practical solutions for improving the reliability, robustness and ethical governance of LLM systems in production environments.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Introduction to Domain-Aware DL Model Testing</title>
